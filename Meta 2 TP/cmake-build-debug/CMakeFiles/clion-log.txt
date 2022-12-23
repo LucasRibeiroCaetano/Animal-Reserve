@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Lucas\Documents\Universidade\2º Ano\POO\GitHub\Uni_POO_Practical_Assignment\Meta 2 TP" -B "C:\Users\Lucas\Documents\Universidade\2º Ano\POO\GitHub\Uni_POO_Practical_Assignment\Meta 2 TP\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\Lucas\Documents\Universidade\2 Ano\POO\GitHub\Uni_POO_Practical_Assignment\Meta 2 TP" -B "C:\Users\Lucas\Documents\Universidade\2 Ano\POO\GitHub\Uni_POO_Practical_Assignment\Meta 2 TP\cmake-build-debug"
 -- Configuring done
 CMake Error at CMakeLists.txt:6 (add_executable):
   Cannot find source file:

@@ -1,3 +1,0 @@
-C:/Users/Lucas/Documents/Universidade/2º Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP/cmake-build-debug/CMakeFiles/Meta_2_TP.dir
-C:/Users/Lucas/Documents/Universidade/2º Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Lucas/Documents/Universidade/2º Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
