@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Meta_2_TP",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Meta_2_TP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meta_2_TP-Debug-105fd94e45c449d0aec1.json",
+					"name" : "Meta_2_TP",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP/cmake-build-debug",
+		"source" : "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
