@@ -1,4 +1,4 @@
-#include "comida.h"
+#include "alimento.h"
 
 #include "../Utils/utils.h"
 
