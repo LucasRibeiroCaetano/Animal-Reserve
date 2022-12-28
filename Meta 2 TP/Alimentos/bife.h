@@ -2,17 +2,17 @@
 #define META_2_TP_BIFE_H
 
 #include "../Utils/utils.h"
-#include "comida.h"
+#include "alimento.h"
 
 using namespace std;
 
-class bife : comida{
+class Bife : Alimento{
 
 
 public:
 
-    bife();
-    ~bife();
+    Bife(char nome, int vNutritivo,int toxicidade, int duracao, vector<string> cheiros);
+    ~Bife();
 
 };
 
