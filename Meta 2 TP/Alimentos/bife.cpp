@@ -4,7 +4,7 @@ Bife:: Bife(char nome, int vNutritivo, int toxicidade, int duracao, vector<strin
     nome = 'b';
     vNutritivo = 10; // diminui 1 a cada instante
     toxicidade = 2; //constante
-    duracao = 30;
+    duracao = 30; //desaparece quando chegar a 0
     cheiros[0] = "carne"; //Constante - Tem sempre cheiro mesmo nao tendo valor nutritivo
     cheiros[1] = "ketchup";
 }
