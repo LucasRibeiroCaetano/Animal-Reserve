@@ -6,21 +6,24 @@
 
 using namespace std;
 
-class ovelha : public animal{
+class Ovelha : public Animal{
 
 
 
 public:
 
     //Nasce -> Construtor
-    ovelha();
+    Ovelha(int id, string nome = "Gertrudes", int linha = 0, int coluna = 0);
 
     //Morre -> Destrutor
-    ~ovelha() override;
+    ~Ovelha() override;
 
     void movimento() override;
     void alimentacao() override;
     void interacao() override;
+
+    void reproduz();  //Nasce uma nova ovelha a cada 15 instantes. Ao nascer fica a menos de 12 posições de distancia(linha coluna)
+
 
 };
 
