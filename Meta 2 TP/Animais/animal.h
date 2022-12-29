@@ -6,17 +6,27 @@
 using namespace std;
 
 //Classe Base
-class animal {
-
+class Animal {
+    string nome,
+           especie;
+    char representacao; // carater que representa visualmente o animal
     float peso;
-    int saude, //not sure do tipo de variável
-        fome; //not sure do tipo de variável
-    bool vivo;
+    int saude,
+        fome,
+        tempoVida,
+        id,
+        linha,
+        coluna;
+    bool vivo; //pra que isto? i mean quando morre desaparece nao? ou tranforma-se num corpo... Mas nesse caso criamos um alimento de tipo corpo nao?
+    vector<string> cheirosAgradaveis; // Cheiros que gosta, come
+
 
 public:
 
-    animal(float p, int s, int f);
-    virtual ~animal() = 0;
+    Animal(char especie, float peso, int saude, int fome, int tempoVida, vector<string> cheirosAgradaveis);
+    virtual ~Animal() = 0;
+
+    void getNome(string nome);
 
     virtual void movimento() = 0;
     virtual void alimentacao() = 0;
