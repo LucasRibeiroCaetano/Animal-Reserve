@@ -14,7 +14,6 @@ protected:
     float peso;
     int saude,
         fome,
-        tempoVida,
         id,
         linha,
         coluna;
