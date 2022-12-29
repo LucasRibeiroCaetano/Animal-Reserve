@@ -6,9 +6,9 @@
 
 using namespace std;
 
-class Ovelha : public Animal{
+class Ovelha : Animal{
 
-
+    int tempoVida;
 
 public:
 
