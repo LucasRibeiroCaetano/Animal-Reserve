@@ -7,8 +7,9 @@
 using namespace std;
 
 class Coelho : Animal{
-    
+
     int tempoVida;
+    string cheiroAgradavel;
 
 public:
 
@@ -22,7 +23,7 @@ public:
     void alimentacao() override;
     void interacao() override;
 
-    void reproduz();  //pode nascer um novo coelho a cada 8 instantes com probabilidade de 50%. Ao nascer fica a menos de 10 posições de distancia(linha coluna)
+    void reproduz() override;  //pode nascer um novo coelho a cada 8 instantes com probabilidade de 50%. Ao nascer fica a menos de 10 posições de distancia(linha coluna)
 
 };
 
