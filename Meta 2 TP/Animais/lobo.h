@@ -6,20 +6,24 @@
 
 using namespace std;
 
-class lobo : public animal{
+class Lobo : Animal{
 
+    int instanteNovoNasc;
 
 public:
 
     //Nasce -> Construtor
-    lobo();
+    Lobo(int id, string nome = "Quim", int linha = 0, int coluna = 0);
 
     //Morre -> Destrutor
-    ~lobo() override;
+    ~Lobo() override;
 
     void movimento() override;
     void alimentacao() override;
     void interacao() override;
+
+    void reproduz();  //nasce um lobo no instante predefenido no construtor. Ao nascer fica a menos de 15 posições de distancia(linha coluna)
+
 
 };
 
