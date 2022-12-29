@@ -7,9 +7,8 @@
 using namespace std;
 
 class Ovelha : Animal{
-
     int tempoVida;
-
+    string cheiroAgradavel;
 public:
 
     //Nasce -> Construtor
@@ -22,7 +21,7 @@ public:
     void alimentacao() override;
     void interacao() override;
 
-    void reproduz();  //Nasce uma nova ovelha a cada 15 instantes. Ao nascer fica a menos de 12 posições de distancia(linha coluna)
+    void reproduz() override;  // //Nasce uma nova ovelha a cada 15 instantes. Ao nascer fica a menos de 12 posições de distancia(linha coluna)
 
 
 };
