@@ -7,7 +7,7 @@ Ovelha:: Ovelha(int id, string nome, int linha, int coluna): Animal(id, nome, li
     saude = 30;
     fome = 0;
     tempoVida = 35;
-    cheirosAgradaveis[0] = "erva";
+    cheiroAgradavel = "erva";
     cout << "Ovelha '" << nome << "' de id [" << id << "] foi criada." << endl;
 }
 
