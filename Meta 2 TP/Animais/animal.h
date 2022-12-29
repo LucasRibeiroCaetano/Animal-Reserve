@@ -7,6 +7,7 @@ using namespace std;
 
 //Classe Base
 class Animal {
+protected:
     string nome,
            especie;
     char representacao; // carater que representa visualmente o animal
@@ -22,11 +23,10 @@ class Animal {
 
 
 public:
-
-    Animal(char especie, float peso, int saude, int fome, int tempoVida, vector<string> cheirosAgradaveis);
+    //Nasce -> Construtor
+    Animal(int id,string nome, int linha = 0, int coluna = 0);
     virtual ~Animal() = 0;
 
-    void getNome(string nome);
 
     virtual void movimento() = 0;
     virtual void alimentacao() = 0;
