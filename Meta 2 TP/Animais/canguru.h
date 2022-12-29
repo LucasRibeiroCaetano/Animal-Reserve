@@ -1,25 +1,29 @@
-#ifndef META_2_TP_CANGURU_H
-#define META_2_TP_CANGURU_H
+#ifndef META_2_TP_Canguru_H
+#define META_2_TP_Canguru_H
 
 #include "animal.h"
 #include "../Utils/utils.h"
 
-class canguru : public animal{
+class Canguru : Animal{
 
+    int tempoVida;
 
 public:
 
     //Nasce -> Construtor
-    canguru();
+    Canguru(int id, string nome = "Julio", int linha = 0, int coluna = 0);
 
     //Morre -> Destrutor
-    ~canguru() override;
+    ~Canguru() override;
 
     void movimento() override;
     void alimentacao() override;
     void interacao() override;
 
+    void reproduz() overrride;  //nasce um novo canguru a cada 30 instantes. Ao nascer fica a menos de 3 posições de distancia(linha coluna)
+
+
 };
 
 
-#endif //META_2_TP_CANGURU_H
+#endif //META_2_TP_Canguru_H
