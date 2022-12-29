@@ -6,19 +6,21 @@
 
 using namespace std;
 
-class coelho : public animal{
+class Coelho : Animal{
 
 public:
 
     //Nasce -> Construtor
-    coelho();
+    Coelho(int id,string nome = "Roberto", int linha = 0, int coluna = 0);
 
     //Morre -> Destrutor
-    ~coelho() override;
+    ~Coelho() override;
 
     void movimento() override;
     void alimentacao() override;
     void interacao() override;
+
+    void reproduz();  //pode nascer um novo coelho a cada 8 instantes com probabilidade de 50%. Ao nascer fica a menos de 10 posições de distancia(linha coluna)
 
 };
 
