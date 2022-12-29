@@ -1,23 +1,27 @@
 #include "coelho.h"
 
-coelho::coelho() {
+Coelho:: Coelho(int id,string nome, int linha, int coluna): Animal(id, nome, linha, coluna){
+    especie = "coelho";
+    representacao = 'C';
+    peso = (rand() % 4) + 1;
+    saude = 20;
+    fome = 0;
+    tempoVida = 30;
+    cheirosAgradaveis[0] = "verdura";
+    cout << "Coelho '" << nome << "' de id [" << id << "] foi criado." << endl;
+}
 
-
+Coelho::~Coelho() {
 
 }
 
-coelho::~coelho() {
-
-
-}
-
-void coelho::interacao() {
+void Coelho::interacao() {
 
     //animal::interacao();
 
 }
 
-void coelho::movimento() {
+void Coelho::movimento() {
 
     //animal::movimento();
 
