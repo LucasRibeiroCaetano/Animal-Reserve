@@ -8,6 +8,7 @@ Coelho:: Coelho(int id, string nome, int linha, int coluna): Animal(id, nome, li
     fome = 0;
     tempoVida = 30;
     cheiroAgradavel = "verdura";
+    percecao = 4;
     cout << "Coelho '" << nome << "' de id [" << id << "] foi criado." << endl;
 }
 
