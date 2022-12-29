@@ -18,8 +18,6 @@ protected:
         linha,
         coluna;
     bool vivo; //pra que isto? i mean quando morre desaparece nao? ou tranforma-se num corpo... Mas nesse caso criamos um alimento de tipo corpo nao?
-    vector<string> cheirosAgradaveis; // Cheiros que gosta, come
-
 
 public:
     //Nasce -> Construtor
@@ -30,6 +28,7 @@ public:
     virtual void movimento() = 0;
     virtual void alimentacao() = 0;
     virtual void interacao() = 0;
+    virtual void reproduz() = 0;
 
 };
 
