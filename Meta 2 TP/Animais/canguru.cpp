@@ -7,6 +7,7 @@ Canguru:: Canguru(int id, string nome, int linha, int coluna): Animal(id, nome, 
     saude = 20;
     fome = 0;
     tempoVida = 70;
+    percecao = 7;
     cout << "Canguru '" << nome << "' de id [" << id << "] foi criado." << endl;
 }
 
