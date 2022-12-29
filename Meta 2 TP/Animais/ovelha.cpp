@@ -8,6 +8,8 @@ Ovelha:: Ovelha(int id, string nome, int linha, int coluna): Animal(id, nome, li
     fome = 0;
     tempoVida = 35;
     cheiroAgradavel = "erva";
+    percecao = 3;
+
     cout << "Ovelha '" << nome << "' de id [" << id << "] foi criada." << endl;
 }
 
