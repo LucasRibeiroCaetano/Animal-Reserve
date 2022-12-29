@@ -8,6 +8,7 @@ Lobo:: Lobo(int id, string nome, int linha, int coluna): Animal(id, nome, linha,
     fome = 0;
     cheiroAgradavel = "carne";
     instanteNovoNasc = (rand() % 40) + 5;
+    percecao = 5;
     cout << "Lobo '" << nome << "' de id [" << id << "] foi criado." << endl;
 }
 
