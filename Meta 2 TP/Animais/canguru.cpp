@@ -1,26 +1,32 @@
 #include "canguru.h"
 
-canguru::canguru() {
+Canguru:: Canguru(int id, string nome, int linha, int coluna): Animal(id, nome, linha, coluna){
+    especie = "canguru";
+    representacao = 'G';
+    peso = 10;
+    saude = 20;
+    fome = 0;
+    tempoVida = 70;
+    cout << "Canguru '" << nome << "' de id [" << id << "] foi criado." << endl;
+}
+
+Canguru::~Canguru() {
 
 }
 
-canguru::~canguru() {
-
-}
-
-void canguru::movimento() {
+void Canguru::movimento() {
 
     //animal::movimento();
 
 }
 
-void canguru::alimentacao() {
+void Canguru::alimentacao() {
 
     //animal::alimentacao();
 
 }
 
-void canguru::interacao() {
+void Canguru::interacao() {
 
     //animal::interacao();
 
