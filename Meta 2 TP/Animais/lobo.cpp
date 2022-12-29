@@ -6,7 +6,7 @@ Lobo:: Lobo(int id, string nome, int linha, int coluna): Animal(id, nome, linha,
     peso = 15;
     saude = 25;
     fome = 0;
-    cheirosAgradaveis[0] = "carne";
+    cheiroAgradavel = "carne";
     instanteNovoNasc = (rand() % 40) + 5;
     cout << "Lobo '" << nome << "' de id [" << id << "] foi criado." << endl;
 }
