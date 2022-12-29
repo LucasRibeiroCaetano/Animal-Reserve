@@ -16,7 +16,8 @@ protected:
         fome,
         id,
         linha,
-        coluna;
+        coluna,
+        percecao;
     bool vivo; //pra que isto? i mean quando morre desaparece nao? ou tranforma-se num corpo... Mas nesse caso criamos um alimento de tipo corpo nao?
 
 public:
