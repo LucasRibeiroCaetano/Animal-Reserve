@@ -9,6 +9,7 @@ using namespace std;
 class Lobo : Animal{
 
     int instanteNovoNasc;
+    string cheiroAgradavel;
 
 public:
 
@@ -22,7 +23,7 @@ public:
     void alimentacao() override;
     void interacao() override;
 
-    void reproduz();  //nasce um lobo no instante predefenido no construtor. Ao nascer fica a menos de 15 posições de distancia(linha coluna)
+    void reproduz() override;  //nasce um lobo no instante predefenido no construtor. Ao nascer fica a menos de 15 posições de distancia(linha coluna)
 
 
 };
