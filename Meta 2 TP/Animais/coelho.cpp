@@ -27,7 +27,7 @@ void Coelho::movimento() {
 
 }
 
-void coelho::alimentacao() {
+void Coelho::alimentacao() {
 
     //animal::alimentacao();
 
