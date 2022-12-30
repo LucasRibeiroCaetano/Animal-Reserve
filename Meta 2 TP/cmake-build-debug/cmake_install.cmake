@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lucas/Documents/Universidade/2 Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP
+# Install script for directory: C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/GitHub/Uni_POO_Practical_Assignment/Meta 2 TP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

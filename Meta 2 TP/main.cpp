@@ -1,6 +1,6 @@
 #include "Utils/utils.h"
 #include "Animais/animal.h"
-#include "Alimentos/comida.h"
+#include "Alimentos/alimento.h"
 
 
 using namespace std;
