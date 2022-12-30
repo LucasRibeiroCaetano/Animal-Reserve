@@ -1,18 +1,18 @@
 #ifndef META_2_TP_CORPO_H
 #define META_2_TP_CORPO_H
 
-#include "comida.h"
+#include "alimento.h"
 #include "../Utils/utils.h"
 
 using namespace std;
 
-class corpo : comida{
+class Corpo : Alimento{
 
 
 public:
 
-    corpo();
-    ~corpo();
+    Corpo(int id, int linha, int coluna, int valorNutritivo, int toxicidade);
+    ~Corpo();
 
 };
 
