@@ -2,18 +2,18 @@
 #define META_2_TP_CENOURA_H
 
 #include "../Utils/utils.h"
-#include "comida.h"
+#include "alimento.h"
 
 using namespace std;
 
-class cenoura : comida{
+class Cenoura : Alimento{
 
 
 
 public:
 
-    cenoura();
-    ~cenoura();
+    Cenoura(int id, int linha = 0, int coluna = 0);
+    ~Cenoura();
 
 };
 
