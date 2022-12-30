@@ -1,5 +1,8 @@
 #include "alimento.h"
-
 #include "../Utils/utils.h"
 
-Alimento::Alimento(char nome, int vNutritivo, int toxicidade, int duracao, vector<string> cheiros) : nome(nome), valorNutritivo(vNutritivo), toxicidade(toxicidade), duracao(duracao), cheiros(cheiros){}
+Alimento::Alimento(int id, int linha, int coluna)
+: id(id), linha(linha), coluna(coluna){}
+
+Alimento :: Alimento(int id, int linha, int coluna, int valorNutritivo, int toxicidade)
+: id(id), linha(linha), coluna(coluna), valorNutritivo(valorNutritivo), toxicidade(toxicidade){}
