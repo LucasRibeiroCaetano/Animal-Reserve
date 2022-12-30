@@ -1,9 +1,10 @@
 #include "corpo.h"
 
-corpo::corpo() {
-
+Corpo::Corpo(int id, int linha, int coluna, int valorNutritivo, int toxicidade) : Alimento(id, linha , coluna, valorNutritivo, toxicidade) {
+    tipo = 'p';
+    cheiros[0] = "carne";
 }
 
-corpo::~corpo() {
+Corpo::~Corpo() {
 
 }
