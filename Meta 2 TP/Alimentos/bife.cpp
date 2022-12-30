@@ -1,11 +1,11 @@
 #include "bife.h"
 
-Bife:: Bife(char nome, int vNutritivo, int toxicidade, int duracao, vector<string> cheiros): Alimento(nome, vNutritivo, toxicidade, duracao, cheiros){
-    nome = 'b';
-    vNutritivo = 10; // diminui 1 a cada instante
+Bife:: Bife(int id, int linha, int coluna): Alimento(id, linha, coluna){
+    tipo = 'b';
+    valorNutritivo = 10;
     toxicidade = 2; //constante
-    duracao = 30; //desaparece quando chegar a 0
-    cheiros[0] = "carne"; //Constante - Tem sempre cheiro mesmo nao tendo valor nutritivo
+    duracao = 30;
+    cheiros[0] = "carne";
     cheiros[1] = "ketchup";
 }
 
