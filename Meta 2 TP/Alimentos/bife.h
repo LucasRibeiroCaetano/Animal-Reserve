@@ -8,10 +8,9 @@ using namespace std;
 
 class Bife : Alimento{
 
-
 public:
 
-    Bife(char nome, int vNutritivo,int toxicidade, int duracao, vector<string> cheiros);
+    Bife(int id, int linha, int coluna);
     ~Bife();
 
 };
