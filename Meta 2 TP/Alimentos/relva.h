@@ -1,17 +1,19 @@
 #ifndef META_2_TP_RELVA_H
 #define META_2_TP_RELVA_H
 
-#include "comida.h"
+#include "alimento.h"
 #include "../Utils/utils.h"
 
 using namespace std;
 
-class relva : comida{
+class Relva : public Alimento {
 
 public:
 
-    relva();
-    ~relva();
+    Relva(int id, int linha = 0, int coluna = 0);
+    ~Relva();
+
+    void novaRelva();
 
 };
 
