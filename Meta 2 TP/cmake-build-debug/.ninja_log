@@ -1,10 +1,10 @@
 # ninja log v5
-2	224	6946415375449287	build.ninja	ef37a98f1fc10881
+2	224	6946444225190955	build.ninja	ef37a98f1fc10881
 569	1056	6934588915048973	CMakeFiles/Meta_2_TP.dir/Comandos/comando_RxComandosTXT.cpp.obj	5ccd59da1ae5b209
 1	506	6934588909488828	CMakeFiles/Meta_2_TP.dir/main.cpp.obj	dcfae3289d802f71
 52	568	6934588910039378	CMakeFiles/Meta_2_TP.dir/Comandos/comando_matarAnimal.cpp.obj	1468e986f5012bea
-7	490	6934588909369773	CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj	f13be8a87de907d7
-44	590	6934588910054259	CMakeFiles/Meta_2_TP.dir/Comandos/comando_criarAnimal.cpp.obj	a4dc429fc1b65272
+20	645	6946415936837708	CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj	a9d3ec5f8baa196f
+33	663	6946415937166825	CMakeFiles/Meta_2_TP.dir/Comandos/comando_criarAnimal.cpp.obj	b854f6bbdc2304f4
 13	518	6934588909558256	CMakeFiles/Meta_2_TP.dir/Animais/animal.cpp.obj	f440793878c3ca5e
 35	553	6934588909964977	CMakeFiles/Meta_2_TP.dir/Comandos/comando_removerAlimento.cpp.obj	6a327942602effd7
 28	580	6934588910009614	CMakeFiles/Meta_2_TP.dir/Comandos/comando_alimentarDiretamente.cpp.obj	aa0e985477269dd7
@@ -20,5 +20,3 @@
 591	1062	6934588915108498	CMakeFiles/Meta_2_TP.dir/Comandos/comando_guardarEstado.cpp.obj	3a580082a6f0401c
 580	1063	6934588915133292	CMakeFiles/Meta_2_TP.dir/Comandos/comando_slideAV.cpp.obj	7c4e1b24902b3ac
 602	1085	6934588915331696	CMakeFiles/Meta_2_TP.dir/Comandos/comando_recuperaEstado.cpp.obj	7c7b222086612f84
-20	645	6946415936837708	CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj	a9d3ec5f8baa196f
-33	663	6946415937166825	CMakeFiles/Meta_2_TP.dir/Comandos/comando_criarAnimal.cpp.obj	b854f6bbdc2304f4

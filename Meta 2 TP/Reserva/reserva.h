@@ -3,14 +3,17 @@
 
 #include "../Utils/utils.h"
 #include "areaVisivel.h"
+#include "segmento.h"
 
 using namespace std;
 
-class reserva {
+class Reserva {
 
     //Valores Random entre 16 e 500
     int NL,
         NC;
+
+    Segmento** segmentos;
 
     //Uma reserva tem uma área visível
     areaVisivel *a; //Confirmar isto
