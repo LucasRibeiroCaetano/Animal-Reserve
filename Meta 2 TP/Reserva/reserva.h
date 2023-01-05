@@ -16,7 +16,7 @@ class Reserva {
     Segmento** segmentos;
 
     //Uma reserva tem uma área visível
-    areaVisivel *a; //Confirmar isto
+    areaVisivel *area;
 
     //A reserva irá ter NL*NC Segmentos
     //TODO: array dinâmico bidimensional de segmentos... Usar new como na aula.
@@ -28,8 +28,11 @@ class Reserva {
 
 public:
 
-    reserva();
-    ~reserva();
+    Reserva();
+    ~Reserva();
+
+    getNL() const;
+    getNC() const;
 
 };
 

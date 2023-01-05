@@ -7,7 +7,7 @@
 class Segmento {
 
     Animal **animais;
-    Alimento *alimento_;
+    Alimento *alimento;
 
 public:
 

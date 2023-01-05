@@ -1,5 +1,5 @@
 # ninja log v5
-2	224	6946444225190955	build.ninja	ef37a98f1fc10881
+2	224	6946541260414656	build.ninja	ef37a98f1fc10881
 569	1056	6934588915048973	CMakeFiles/Meta_2_TP.dir/Comandos/comando_RxComandosTXT.cpp.obj	5ccd59da1ae5b209
 1	506	6934588909488828	CMakeFiles/Meta_2_TP.dir/main.cpp.obj	dcfae3289d802f71
 52	568	6934588910039378	CMakeFiles/Meta_2_TP.dir/Comandos/comando_matarAnimal.cpp.obj	1468e986f5012bea
@@ -20,3 +20,5 @@
 591	1062	6934588915108498	CMakeFiles/Meta_2_TP.dir/Comandos/comando_guardarEstado.cpp.obj	3a580082a6f0401c
 580	1063	6934588915133292	CMakeFiles/Meta_2_TP.dir/Comandos/comando_slideAV.cpp.obj	7c4e1b24902b3ac
 602	1085	6934588915331696	CMakeFiles/Meta_2_TP.dir/Comandos/comando_recuperaEstado.cpp.obj	7c7b222086612f84
+43	1802	6946541488385916	CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj	a9d3ec5f8baa196f
+127	1855	6946541488914497	CMakeFiles/Meta_2_TP.dir/Animais/animal.cpp.obj	41c7e78337fd47c5

@@ -2,6 +2,7 @@
 #define META_2_TP_AREAVISIVEL_H
 
 #include "../Utils/utils.h"
+#include "reserva.h"
 
 class areaVisivel {
 
@@ -14,8 +15,8 @@ class areaVisivel {
 
 public:
 
-    areaVisivel();
-    ~areaVisivel();
+    areaVisivel(const Reserva &reserva);
+
 
 };
 
