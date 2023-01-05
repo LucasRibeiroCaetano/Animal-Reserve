@@ -2,8 +2,6 @@
 
 Reserva::Reserva() {
 
-    area = nullptr;
-
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> dis(16, 500);
