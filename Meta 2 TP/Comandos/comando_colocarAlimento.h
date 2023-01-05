@@ -17,7 +17,7 @@ using namespace std;
 
  */
 
-class comando_colocarAlimento : public comando{
+class comando_colocarAlimento : public Comando{
 
 
 

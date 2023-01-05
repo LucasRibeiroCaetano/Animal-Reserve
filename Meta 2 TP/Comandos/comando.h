@@ -6,7 +6,7 @@
 using namespace std;
 
 //Classe Base
-class comando {
+class Comando {
 
     public:
 

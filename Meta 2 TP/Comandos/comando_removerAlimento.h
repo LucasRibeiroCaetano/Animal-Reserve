@@ -2,7 +2,7 @@
 #define META_2_TP_COMANDO_REMOVERALIMENTO_H
 
 #include "../Utils/utils.h"
-#include "../Alimentos/comida.h"
+#include "../Alimentos/alimento.h"
 #include "comando.h"
 
 using namespace std;

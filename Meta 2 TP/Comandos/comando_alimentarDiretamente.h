@@ -2,7 +2,7 @@
 #define META_2_TP_COMANDO_ALIMENTARDIRETAMENTE_H
 
 #include "../Utils/utils.h"
-#include "../Alimentos/comida.h"
+#include "../Alimentos/alimento.h"
 #include "../Animais/animal.h"
 #include "comando.h"
 
