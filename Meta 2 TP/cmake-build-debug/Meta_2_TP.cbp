@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Meta_2_TP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Meta_2_TP">
+				<Option output="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Meta_2_TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Meta_2_TP"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Meta_2_TP/fast">
+				<Option output="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Meta_2_TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 Meta_2_TP/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/alimento.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/alimento.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/alimentoMisterio.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/alimentoMisterio.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/bife.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/bife.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/cenoura.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/cenoura.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/corpo.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/corpo.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/relva.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Alimentos/relva.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/animal.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/animal.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/animalMisterio.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/animalMisterio.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/canguru.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/canguru.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/coelho.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/coelho.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/lobo.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/lobo.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/ovelha.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Animais/ovelha.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_RxComandosTXT.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_RxComandosTXT.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_alimentarDiretamente.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_alimentarDiretamente.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_colocarAlimento.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_colocarAlimento.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_criarAnimal.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_criarAnimal.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_exit.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_exit.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_guardarEstado.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_guardarEstado.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_limparSeg.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_limparSeg.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_listarAnimaisAV.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_listarAnimaisAV.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_listarAnimaisReserva.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_listarAnimaisReserva.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_matarAnimal.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_matarAnimal.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_recuperaEstado.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_recuperaEstado.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_removerAlimento.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_removerAlimento.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_skipSim.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_skipSim.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_slideAV.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_slideAV.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_verObjeto.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_verObjeto.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_verSeg.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Comandos/comando_verSeg.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Reserva/areaVisivel.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Reserva/areaVisivel.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Reserva/reserva.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Reserva/reserva.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Utils/utils.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/Utils/utils.h">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/main.cpp">
+			<Option target="Meta_2_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/Salomé R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
