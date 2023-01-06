@@ -1,6 +1,6 @@
 #include "animalMisterio.h"
 
-animalMisterio::animalMisterio() {
+animalMisterio::animalMisterio(int id, string nome, int linha, int coluna) : Animal(id, nome, linha, coluna) {
 
 }
 

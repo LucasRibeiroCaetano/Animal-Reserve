@@ -11,7 +11,7 @@ class animalMisterio : public Animal{
 public:
 
     //Nasce -> Construtor
-    animalMisterio();
+    animalMisterio(int id, string nome, int linha, int coluna);
 
     //Morre -> Destrutor
     ~animalMisterio() override;

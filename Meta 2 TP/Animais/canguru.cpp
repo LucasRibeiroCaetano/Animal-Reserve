@@ -32,3 +32,7 @@ void Canguru::interacao() {
     //animal::interacao();
 
 }
+
+void Canguru::reproduz() {
+
+}

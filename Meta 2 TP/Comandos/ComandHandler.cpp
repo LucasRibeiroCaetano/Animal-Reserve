@@ -1,10 +1,7 @@
-//
-// Created by Salomé R. Caetano on 05/01/2023.
-//
 #include <string>
 #include "ComandHandler.h"
 
-ComandHandler :: ComandHandler(){}
+ComandHandler :: ComandHandler(){};
 
 string ComandHandler :: pedeComando(){
     string comando;
@@ -14,7 +11,7 @@ string ComandHandler :: pedeComando(){
     return comando;
 }
 
-void ComandHandler::procuraComando( string comando ){
+void ComandHandler::procuraComando(const string& comando ){
     string com;
     int n;
 
@@ -26,41 +23,58 @@ void ComandHandler::procuraComando( string comando ){
     do{
         if(com == "animal"){
 
-        }else if(com == "kill"){
-
-        }else if(com == "killid"){
-
-        }else if(com == "food"){
-
-        }else if(com == "feed"){
-
-        }else if(com == "feedid"){
-
-        }else if(com == "nofood"){
-
-        }else if(com == "empty"){
-
-        }else if(com == "see"){
-
-        }else if(com == "info"){
-
-        }else if(com == "n"){
-
-        }else if(com == "anim"){
-
-        }else if(com == "visanim"){
-
-        }else if(com == "store"){
-
-        }else if(com == "restore"){
-
-        }else if(com == "load"){
-
-        }else if(com == "slide"){
+        }
+        else if(com == "kill"){
 
         }
-    }while(com != "exit");
+        else if(com == "killid"){
 
-    cout << "\nA terminar programa -- Ate a proxima"<< endl;
+        }
+        else if(com == "food"){
+
+        }
+        else if(com == "feed"){
+
+        }
+        else if(com == "feedid"){
+
+        }
+        else if(com == "nofood"){
+
+        }
+        else if(com == "empty"){
+
+        }
+        else if(com == "see"){
+
+        }
+        else if(com == "info"){
+
+        }
+        else if(com == "n"){
+
+        }
+        else if(com == "anim"){
+
+        }
+        else if(com == "visanim"){
+
+        }
+        else if(com == "store"){
+
+        }
+        else if(com == "restore"){
+
+        }
+        else if(com == "load"){
+
+        }
+        else if(com == "slide"){
+
+        }
+    }
+    while(com != "exit");
+
+    cout << "\nA terminar programa."<< endl;
 }
 

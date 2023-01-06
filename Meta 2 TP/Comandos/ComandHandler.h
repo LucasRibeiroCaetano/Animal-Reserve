@@ -16,7 +16,7 @@ private:
 public:
     ComandHandler();
     string pedeComando();
-    void procuraComando(string comando);
+    void procuraComando(const string& comando);
 
 
 

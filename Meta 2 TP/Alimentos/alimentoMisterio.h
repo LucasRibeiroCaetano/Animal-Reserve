@@ -11,7 +11,7 @@ class alimentoMisterio : Alimento{
 
 public:
 
-    alimentoMisterio();
+    alimentoMisterio(int id, int linha, int coluna);
     ~alimentoMisterio();
 
 };

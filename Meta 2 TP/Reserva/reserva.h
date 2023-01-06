@@ -10,7 +10,7 @@ using namespace std;
 class Reserva {
 
     //Valores Random entre 16 e 500
-    static int NL,
+    int     NL,
             NC;
 
     Segmento** segmentos;

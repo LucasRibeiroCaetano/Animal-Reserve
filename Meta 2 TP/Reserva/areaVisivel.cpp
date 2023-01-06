@@ -1,7 +1,7 @@
 #include "areaVisivel.h"
 #include "reserva.h"
 
-areaVisivel::areaVisivel(): largura(50), altura(20) {
+areaVisivel::areaVisivel() : largura(50), altura(20) {
 
     unsigned seed = time(nullptr);
     srand(seed);
@@ -42,18 +42,30 @@ void areaVisivel::mostraReserva(Reserva &reserva) const{
 
         for(int j = 0; j < reserva.getNL(); j++){
 
-            /*
-             * if(animais dentro da lista)
-             *      mostrar o caracter do primeiro animal
-             * else if
-             *      ver se existem comidas
-             * else
-             *      se não existirem comidas, mostrar o caracter default pode ser por exemplo um '_'
-            */
+                if(reserva.getSegmentos()[i][j].getListaAnimais() == nullptr && reserva.getSegmentos()[i][j].getListaAlimento() == nullptr){
+
+                    reserva.getSegmentos()[i][j].setDisplay('_');
+
+                }
+
+                //Se tiver animais
+                else if(reserva.getSegmentos()[i][j].getListaAnimais() != nullptr && reserva.getSegmentos()[i][j].getListaAlimento() == nullptr){
+
+                    Segmento** aux = reserva.getSegmentos();
+
+                    reserva.getSegmentos()[i][j].setDisplay(aux[i][j].getListaAnimais()[0]->representacao);
+
+                }
+                else if(reserva.getSegmentos()[i][j].getListaAnimais() == nullptr && reserva.getSegmentos()[i][j].getListaAlimento() != nullptr){
+
+                    Segmento** aux = reserva.getSegmentos();
+
+                    reserva.getSegmentos()[i][j].setDisplay(aux[i][j].getListaAlimento()[0].tipo);
+
+                }
         }
 
     }
-
 
     //Mostra a reserva atualizada
     for(int i = 0; i < reserva.getNC(); i++){

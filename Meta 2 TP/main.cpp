@@ -1,9 +1,6 @@
-#include "Utils/utils.h"
-#include "Animais/animal.h"
-#include "Alimentos/alimento.h"
 #include "Reserva/reserva.h"
+#include "Utils/utils.h"
 #include "Reserva/areaVisivel.h"
-
 
 using namespace std;
 
@@ -13,13 +10,11 @@ int main() {
     Reserva::instance = &reserva;
     areaVisivel area;
 
-    cout << area.getCseX();
+    area.mostraReserva(reserva);
 
-    cout << "cseX: " << area.getCseX() << endl;
-    cout << "cseY: " << area.getCseY() << endl;
+    cout << "Informacao da Reserva: \nCseX: " << area.getCseX() << "\nCseY: " << area.getCseY() << "\nLimX: " << area.getLimX() << "\nLimY: " << area.getLimY() <<  endl;
 
-    cout << "limX: " << area.getLimX() << endl;
-    cout << "limY: " << area.getLimY() << endl;
+
 
     return 0;
 }

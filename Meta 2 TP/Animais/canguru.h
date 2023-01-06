@@ -20,7 +20,7 @@ public:
     void alimentacao() override;
     void interacao() override;
 
-    void reproduz() overrride;  //nasce um novo canguru a cada 30 instantes. Ao nascer fica a menos de 3 posições de distancia(linha coluna)
+    void reproduz() override;  //nasce um novo canguru a cada 30 instantes. Ao nascer fica a menos de 3 posições de distancia(linha coluna)
 
 
 };

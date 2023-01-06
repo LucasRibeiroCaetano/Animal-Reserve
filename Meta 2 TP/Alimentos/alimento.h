@@ -10,7 +10,7 @@ class Alimento {
 
 protected:
 
-    char tipo;
+
     int id,
         valorNutritivo,
         toxicidade,
@@ -22,6 +22,8 @@ protected:
 
 
 public:
+
+    char tipo;
 
     Alimento(int id, int linha, int coluna);
     Alimento(int id, int linha, int coluna, int valorNutritivo, int toxicidade);

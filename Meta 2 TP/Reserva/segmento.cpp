@@ -12,3 +12,17 @@ Segmento::~Segmento() {
 char Segmento::getDisplay() const{
     return display;
 }
+
+Alimento * Segmento::getListaAlimento() const {
+    return alimento;
+}
+
+Animal ** Segmento::getListaAnimais() const {
+    return animais;
+}
+
+void Segmento::setDisplay(char c) {
+
+    display = c;
+
+}

@@ -6,8 +6,9 @@
 
 class Segmento {
 
-    Animal **animais;
-    Alimento *alimento;
+    Animal** animais;
+    Alimento* alimento;
+
     char display;
 
 public:
@@ -15,7 +16,11 @@ public:
     Segmento();
     ~Segmento();
 
+    Animal **getListaAnimais() const;
+    Alimento *getListaAlimento() const;
+
     char getDisplay() const;
+    void setDisplay(char c);
 };
 
 
