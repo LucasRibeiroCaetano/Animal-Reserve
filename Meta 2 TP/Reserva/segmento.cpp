@@ -8,3 +8,7 @@ Segmento::~Segmento() {
     delete alimento;
 
 }
+
+char Segmento::getDisplay() const{
+    return display;
+}

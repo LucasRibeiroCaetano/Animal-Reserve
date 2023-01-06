@@ -32,3 +32,7 @@ Reserva::~Reserva() {
 int Reserva::getNL() const { return NL; }
 
 int Reserva::getNC() const { return NC; }
+
+Segmento **Reserva::getSegmentos() const{
+    return segmentos;
+}

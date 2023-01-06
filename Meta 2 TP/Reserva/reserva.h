@@ -14,7 +14,6 @@ class Reserva {
             NC;
 
     Segmento** segmentos;
-
     //Cada segmento é uma classe que representa um bloco da reserva.
     //Em cada bloco vai ser guardado dinâmicamente uma lista com os animais e a comida que lá residem.
 
@@ -28,7 +27,7 @@ public:
 
     getNL() const;
     getNC() const;
-
+    Segmento** getSegmentos() const;
 };
 
 

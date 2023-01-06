@@ -21,7 +21,7 @@ public:
     int getLimX() const;
     int getLimY() const;
 
-    void mostraReserva() const;
+    void mostraReserva(Reserva &reserva) const;
 };
 
 

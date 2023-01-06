@@ -15,6 +15,7 @@ public:
     Segmento();
     ~Segmento();
 
+    char getDisplay() const;
 };
 
 
