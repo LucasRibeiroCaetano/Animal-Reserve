@@ -10,6 +10,8 @@ int main() {
     Reserva reserva;
     areaVisivel area(const Reserva &reserva);
 
+    cout << "Dimensão da área Visível: " << area.getCseX() << endl;
+
 
     //Caralho
 

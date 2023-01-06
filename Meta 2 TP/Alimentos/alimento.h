@@ -9,20 +9,23 @@ using namespace std;
 class Alimento {
 
 protected:
+
     char tipo;
     int id,
         valorNutritivo,
         toxicidade,
         duracao,
         linha,
-        coluna;      //Tempo de "Vida"
-     vector<string> cheiros;
+        coluna;
+
+    vector<string> cheiros;
 
 
 public:
 
     Alimento(int id, int linha, int coluna);
     Alimento(int id, int linha, int coluna, int valorNutritivo, int toxicidade);
+
     virtual ~Alimento() = 0;
 
 };
