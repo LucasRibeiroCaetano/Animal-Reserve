@@ -20,3 +20,9 @@
 591	1062	6934588915108498	CMakeFiles/Meta_2_TP.dir/Comandos/comando_guardarEstado.cpp.obj	3a580082a6f0401c
 580	1063	6934588915133292	CMakeFiles/Meta_2_TP.dir/Comandos/comando_slideAV.cpp.obj	7c4e1b24902b3ac
 602	1085	6934588915331696	CMakeFiles/Meta_2_TP.dir/Comandos/comando_recuperaEstado.cpp.obj	7c7b222086612f84
+12	839	6947392507989889	CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj	c9537695898e72d4
+4	847	6947392508054376	CMakeFiles/Meta_2_TP.dir/main.cpp.obj	22676b916d1caa46
+67	874	6947392508337089	CMakeFiles/Meta_2_TP.dir/Comandos/comando_colocarAlimento.cpp.obj	fb356cec4a8d532a
+18	882	6947392508426370	CMakeFiles/Meta_2_TP.dir/Animais/animal.cpp.obj	4fe492e048d7e232
+24	910	6947392508699172	CMakeFiles/Meta_2_TP.dir/Alimentos/alimento.cpp.obj	3920699f7e0ca666
+32	911	6947392508719011	CMakeFiles/Meta_2_TP.dir/Utils/utils.cpp.obj	17cb3fe50ce5ae03

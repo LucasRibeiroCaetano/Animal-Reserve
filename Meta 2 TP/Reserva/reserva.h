@@ -9,16 +9,11 @@ using namespace std;
 
 class Reserva {
 
-    class areaVisivel;
-
     //Valores Random entre 16 e 500
-    int NL,
-        NC;
+    static int NL,
+            NC;
 
     Segmento** segmentos;
-
-    //Uma reserva tem uma área visível
-    areaVisivel area;
 
     //Cada segmento é uma classe que representa um bloco da reserva.
     //Em cada bloco vai ser guardado dinâmicamente uma lista com os animais e a comida que lá residem.
@@ -28,6 +23,8 @@ public:
 
     Reserva();
     ~Reserva();
+
+    static Reserva * instance;
 
     getNL() const;
     getNC() const;

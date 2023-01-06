@@ -7,22 +7,19 @@
 class areaVisivel {
 
     int largura,
-        altura,
-        cseX,
-        cseY,
-        limX,
-        limY;
+            altura,
+            cseX,
+            cseY,
+            limX,
+            limY;
 
 public:
-
-    areaVisivel(const Reserva &reserva);
+    areaVisivel();
 
     getCseX() const;
     getCseY() const;
     getLimX() const;
     getLimY() const;
-
-
 };
 
 

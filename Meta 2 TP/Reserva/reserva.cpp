@@ -13,9 +13,9 @@ Reserva::Reserva() {
 
     for (int i = 0; i < NC; i++)
         segmentos[i] = new Segmento[NL];
-
-    area = areaVisivel(*this);
 }
+
+Reserva * Reserva::instance = nullptr;
 
 Reserva::~Reserva() {
 
