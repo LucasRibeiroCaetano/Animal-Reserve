@@ -17,6 +17,11 @@ public:
 
     areaVisivel(const Reserva &reserva);
 
+    getCseX() const;
+    getCseY() const;
+    getLimX() const;
+    getLimY() const;
+
 
 };
 

@@ -13,3 +13,19 @@ areaVisivel::areaVisivel(const Reserva& reserva): largura(50), altura(20) {
     limY = cseY + altura;
 
 }
+
+int areaVisivel::getCseX() const{
+    return cseX;
+}
+
+int areaVisivel::getCseY() const{
+    return cseY;
+}
+
+int areaVisivel::getLimX() const{
+    return limX;
+}
+
+int areaVisivel::getLimY() const{
+    return limY;
+}
