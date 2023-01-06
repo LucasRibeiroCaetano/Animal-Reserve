@@ -8,7 +8,7 @@ using namespace std;
 
 //Exit: Encerrar o simulador
 
-class comExit : public comando{
+class comExit : public Comando{
 
 public:
 

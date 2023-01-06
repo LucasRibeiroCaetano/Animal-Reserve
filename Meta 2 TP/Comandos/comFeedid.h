@@ -1,12 +1,10 @@
-//
-// Created by ssilva on 06-01-2023.
-//
-
 #ifndef META_2_TP_COMFEEDID_H
 #define META_2_TP_COMFEEDID_H
 
+#include "comando.h"
 
-class comFeedid {
+
+class comFeedid : public Comando{
 
 };
 

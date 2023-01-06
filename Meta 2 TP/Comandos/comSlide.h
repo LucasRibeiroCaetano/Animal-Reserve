@@ -15,7 +15,7 @@ using namespace std;
 
  */
 
-class comSlide : public comando{
+class comSlide : public Comando{
 
 public:
 

@@ -17,7 +17,7 @@ using namespace std;
 
  */
 
-class comAnim : public comando{
+class comAnim : public Comando{
 
 public:
 

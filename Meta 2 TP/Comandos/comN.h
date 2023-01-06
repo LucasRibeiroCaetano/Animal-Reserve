@@ -23,7 +23,7 @@ using namespace std;
 
  */
 
-class comN : public comando{
+class comN : public Comando{
 
 public:
 

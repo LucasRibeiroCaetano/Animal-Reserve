@@ -18,7 +18,7 @@ using namespace std;
 
  */
 
-class comLoad : public comando{
+class comLoad : public Comando{
 
 
 public:

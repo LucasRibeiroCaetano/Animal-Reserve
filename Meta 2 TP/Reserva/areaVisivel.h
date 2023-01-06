@@ -16,10 +16,12 @@ class areaVisivel {
 public:
     areaVisivel();
 
-    getCseX() const;
-    getCseY() const;
-    getLimX() const;
-    getLimY() const;
+    int getCseX() const;
+    int getCseY() const;
+    int getLimX() const;
+    int getLimY() const;
+
+    void mostraReserva() const;
 };
 
 

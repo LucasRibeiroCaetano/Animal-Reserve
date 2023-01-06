@@ -21,7 +21,7 @@ using namespace std;
 
  */
 
-class comAnimal : public comando{
+class comAnimal : public Comando{
 
 
 public:

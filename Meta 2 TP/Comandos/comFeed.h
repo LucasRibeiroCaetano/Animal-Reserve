@@ -15,7 +15,7 @@ using namespace std;
 
  */
 
-class comando_criarAnimal : public comando{
+class comando_criarAnimal : public Comando{
 
 
 public:

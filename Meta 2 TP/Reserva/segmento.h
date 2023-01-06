@@ -8,6 +8,7 @@ class Segmento {
 
     Animal **animais;
     Alimento *alimento;
+    char display;
 
 public:
 

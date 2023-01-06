@@ -14,7 +14,7 @@ using namespace std;
 
  */
 
-class comSee : public comando{
+class comSee : public Comando{
 
 public:
 

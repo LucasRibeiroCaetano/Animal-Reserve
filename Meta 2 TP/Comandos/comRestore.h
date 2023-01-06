@@ -20,7 +20,7 @@ using namespace std;
 
  */
 
-class comRestore : public comando{
+class comRestore : public Comando{
 
 
 public:

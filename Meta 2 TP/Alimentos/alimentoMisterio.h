@@ -2,11 +2,11 @@
 #define META_2_TP_ALIMENTOMISTERIO_H
 
 #include "../Utils/utils.h"
-#include "comida.h"
+#include "alimento.h"
 
 using namespace std;
 
-class alimentoMisterio : comida{
+class alimentoMisterio : Alimento{
 
 
 public:

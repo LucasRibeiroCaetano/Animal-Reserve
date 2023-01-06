@@ -29,3 +29,9 @@ int areaVisivel::getLimX() const{
 int areaVisivel::getLimY() const{
     return limY;
 }
+
+void areaVisivel::mostraReserva() const{
+
+
+
+}

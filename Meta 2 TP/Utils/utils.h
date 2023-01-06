@@ -7,6 +7,8 @@
 #include <vector>
 #include <fstream>
 
+using namespace std;
+
 int contaPalavras(const string& com);
 
 #endif //META_2_TP_UTILS_H

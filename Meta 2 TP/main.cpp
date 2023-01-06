@@ -15,7 +15,11 @@ int main() {
 
     cout << area.getCseX();
 
-    cout << "Dimensão da área Visível: " << area.getCseX() << endl;
+    cout << "cseX: " << area.getCseX() << endl;
+    cout << "cseY: " << area.getCseY() << endl;
+
+    cout << "limX: " << area.getLimX() << endl;
+    cout << "limY: " << area.getLimY() << endl;
 
     return 0;
 }

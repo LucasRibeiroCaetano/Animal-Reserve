@@ -16,7 +16,7 @@ using namespace std;
 
  */
 
-class comEmpty : public comando{
+class comEmpty : public Comando{
 
 public:
 
