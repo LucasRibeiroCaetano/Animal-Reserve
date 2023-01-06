@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Salom\u00e9 R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"
+			"value" : "c:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Salom\u00e9 R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP"
+			"value" : "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Salom\u00e9 R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP/cmake-build-debug"
+			"value" : "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP/cmake-build-debug"
 		},
 		{
 			"name" : "Meta_2_TP_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Salom\u00e9 R. Caetano/Documents/Universidade/2 Ano/POO/Meta 2_TP_2022 2023/Meta 2 TP"
+			"value" : "C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP"
 		}
 	],
 	"kind" : "cache",

@@ -13,7 +13,10 @@ int main() {
 
     cout << area.getCseX();
 
+    cout << "Dimensão da área Visível: " << area.getCseX() << endl;
 
+
+    //Caralho
 
     return 0;
 }
