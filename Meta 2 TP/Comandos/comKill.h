@@ -7,13 +7,10 @@
 
 using namespace std;
 
-//Matar Animal
-
 /*
+        Mata animal que esteja na localizacao inserida
 
-        kill <linha> <coluna> (identifica por posição)
-        killid <id> (identifica por ID)
-
+        Syntax: kill <linha> <coluna>
  */
 
 class comKill : public Comando{
