@@ -10,3 +10,11 @@ int contaPalavras(const string& com){
     }
     return contador;
 }
+
+bool isNumber(const string s){
+    for (char i: s)
+        if (isdigit(i) == 0)
+            return false;
+
+    return true;
+}
