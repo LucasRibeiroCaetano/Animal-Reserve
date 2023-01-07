@@ -37,8 +37,9 @@ void comAnimal::execute(const string &comando) {
 
     }else if(especie == "m"){
 
-    }else
-        cout << "Especie invalida";
-
+    }else{
+        cout << "\nEspecie invalida";
+        return;
+    }
 
 }
