@@ -2,7 +2,6 @@
 #define META_2_TP_RESERVA_H
 
 #include "../Utils/utils.h"
-#include "areaVisivel.h"
 #include "segmento.h"
 
 using namespace std;
@@ -11,7 +10,17 @@ class Reserva {
 
     //Valores Random entre 16 e 500
     int     NL,
-            NC;
+            NC,
+
+            //Variáveis da Área Visível
+            AVlar,
+            AValt,
+            AVcseX,
+            AVcseY,
+            AVlimX,
+            AVlimY;
+
+
 
     Segmento** segmentos;
     //Cada segmento é uma classe que representa um bloco da reserva.
@@ -20,13 +29,18 @@ class Reserva {
 
 public:
 
-    Reserva();
+    Reserva(int largura, int altura);
     ~Reserva();
 
-    static Reserva * instance;
+    int getCseX() const;
+    int getCseY() const;
+    int getLimX() const;
+    int getLimY() const;
+    int getNL() const;
+    int getNC() const;
 
-    getNL() const;
-    getNC() const;
+    void mostraReserva() const;
+
     Segmento** getSegmentos() const;
 };
 
