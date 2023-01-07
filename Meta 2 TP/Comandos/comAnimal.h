@@ -8,17 +8,12 @@
 
 using namespace std;
 
-//Alimentar Diretamente Animais:
 /*
+      Cria um animal a escolha
 
-        No histórico de alimentação o nome do alimento é “user”
-
-        Alimenta os animais que estiverem nessa posição
-        feed <linha><coluna><pontos nutritivos><pontos de toxicidade>
-
-        Alimenta o animal com esse ID
-        feedid <ID> <pontos nutritivos> <pontos de toxicidade>
-
+      Syntax: animal<especie: c / o / l / g / m> <linha> <coluna>
+                or
+              animal <especie: c / o / l / g / m> (posicao aleatoria)
  */
 
 class comAnimal : public Comando{
