@@ -7,14 +7,10 @@
 
 using namespace std;
 
-//Listar ID dos animais na reserva
-
-/*
-
-        Syntax: comAnimal
-
+/* 
         Apresenta a lista de animais: ID, espécie, saúde
-
+        
+        Syntax: anim
  */
 
 class comAnim : public Comando{
