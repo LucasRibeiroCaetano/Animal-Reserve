@@ -8,12 +8,10 @@
 
 using namespace std;
 
-//Ver informação acerca de uma elemento do simulador (animal ou alimento)
-
 /*
+    Ver informação acerca de uma elemento do simulador (animal ou alimento)
 
     Syntax: info <ID>
-
  */
 
 class comInfo : public Comando{

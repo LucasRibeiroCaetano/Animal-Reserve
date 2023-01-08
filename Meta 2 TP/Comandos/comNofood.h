@@ -7,13 +7,12 @@
 
 using namespace std;
 
-//Remover Alimento
-
 /*
+      Remove alimento
 
-        nofood <linha> <coluna>
-        nofood <ID> (só parametro - assume que é o ID)
-
+      Syntax:  nofood <linha> <coluna>
+                 or
+               food <ID>
  */
 
 class comNofood : public Comando{

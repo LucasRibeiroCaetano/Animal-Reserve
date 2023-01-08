@@ -7,18 +7,17 @@
 
 using namespace std;
 
-//Colocar Alimento:
 /*
 
-        food <tipo: r / t / b / a> <linha> <coluna> (relva / cenoura / bife /mistério)
-        food <tipo: r / t / b / a> (fica numa posição aleatória)
+      Cria um alimento a escolha  (“corpos” só podem ser criados colocando primeiro um animal e depois matando-o)
 
-        “corpos” só podem ser criados colocando primeiro um animal e depois matando-o
+      Syntax:  food <tipo: r / t / b / a> <linha> <coluna>
+                  or
+               food <tipo: r / t / b / a>
 
  */
 
 class comFood : public Comando{
-
 
 
 public:

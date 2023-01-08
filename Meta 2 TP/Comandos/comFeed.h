@@ -7,16 +7,13 @@
 
 using namespace std;
 
-//Criar Animal:
 /*
+        Alimenta diretamente animais
 
-        animal <especie: c / o / l / g / m> <linha> <coluna> (coelho/ovelha/lobo/cang./mist.)
-        animal <especie: c / o / l / g / m> (fica numa posição aleatória)
-
+        Syntax: feed <linha> <coluna> <pontos nutritivos> <pontos de toxicidade>
  */
 
-class comando_criarAnimal : public Comando{
-
+class comFeed : public Comando{
 
 public:
 

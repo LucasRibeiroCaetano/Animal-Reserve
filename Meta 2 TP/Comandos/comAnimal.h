@@ -18,7 +18,6 @@ using namespace std;
 
 class comAnimal : public Comando{
 
-
 public:
 
     void execute(const string &comando) override;

@@ -7,18 +7,14 @@
 
 using namespace std;
 
-//Listar ID dos animais na área visível da reserva
 
 /*
+        Apresenta a lista de animais(da area visivel): ID, espécie, saúde
 
         Syntax: visanim
-
-        Apresenta a lista de animais: ID, espécie, saúde
-
  */
 
 class comando_listarAnimaisAV : public Comando{
-
 
 public:
 

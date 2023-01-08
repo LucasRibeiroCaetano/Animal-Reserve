@@ -9,19 +9,14 @@ using namespace std;
 //Passar para o instante seguinte da simulação
 
 /*
+        Avancar na simulacao
 
-        n (“n” de “next” - mais rápido de escrever) -> Sem parâmetros avança 1 instante
-
-        n <N>
-        avança N instantes, mas 1 de cada vez, executando as ações de cada um dos
-        instantes. Após cada um é, como habitualmente, apresentada a informação relevante
-        (sumário do que se passa no simulador e área visível da reserva).
-
-        n <N><P>
-        Mesmo que o anterior mas faz uma pausa de P segundos entre cada instante para dar
-        tempo para ver.
-
- */
+        Syntax: n - avanca 1 instante
+                    or
+                n <N> - avanca n instantes 1 de cada vez
+                    or
+                n <N><P> - avanca n instantes 1 de cada vez parando p segundos
+*/
 
 class comN : public Comando{
 

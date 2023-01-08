@@ -6,18 +6,10 @@
 
 using namespace std;
 
-//Carregar e executar comandos a partir de um ficheiro de texto
-
 /*
+        Recupera um dado estado da reserva em memória, identificado ao nome indicado, e carrega-o
 
-        Syntax: load <nome-do-ficheiro>
-
-        Os comandos são lidos, validados e executados da forma habitual,
-        mas em vez de virem da stream associada ao teclado, vêm da stream associada ao ficheiro
-
-        Não é admissível assumir um nome fixo para o ficheiro.
-        Este comando pode ser executado em qualquer altura.
-
+        Syntax: restore <nome>
  */
 
 class comRestore : public Comando{

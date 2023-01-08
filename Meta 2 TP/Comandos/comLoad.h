@@ -6,20 +6,13 @@
 
 using namespace std;
 
-//Reativar um estado da reserva previamente armazenado em memória
-
 /*
+        Le os comandos de um ficheiro , valida-os e executa-os
 
-        Syntax: restore <nome>
-        Recupera um dado estado da reserva em memória, identificado ao nome indicado, e
-        carrega-o.
-        A reserva recuperada passa a ser o que está em efeito: os comandos passam a agir sobre esta.
-        A reserva que estava ativa antes é descartada
-
+        Syntax: load <nome-do-ficheiro>
  */
 
 class comLoad : public Comando{
-
 
 public:
 

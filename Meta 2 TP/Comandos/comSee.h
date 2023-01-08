@@ -6,12 +6,10 @@
 
 using namespace std;
 
-//Ver o que se encontra numa posição, indicando toda a informação da posição e das coisas que lá estão
-
 /*
+        ve o que se encontra na posicao dada mostrando toda a informacao da posicao e das coisas que la estao
 
         Syntax: see <linha> <coluna>
-
  */
 
 class comSee : public Comando{

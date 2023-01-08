@@ -13,12 +13,8 @@ string ComandHandler :: pedeComando(){
 
 void ComandHandler::procuraComando(const string& comando ){
     string com;
-    int n;
-
     stringstream ss(comando);
     ss >> com;
-
-    n = contaPalavras(comando);
 
     do{
         if(com == "animal"){

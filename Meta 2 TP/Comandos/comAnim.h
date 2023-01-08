@@ -8,7 +8,7 @@
 using namespace std;
 
 /* 
-        Apresenta a lista de animais: ID, espécie, saúde
+        Apresenta a lista de animais(da reserva): ID, espécie, saúde
         
         Syntax: anim
  */

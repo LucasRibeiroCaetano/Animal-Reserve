@@ -6,13 +6,11 @@
 
 using namespace std;
 
-//Deslocar a área de visualização (analogia: mover uma “janela deslizante”)
 
 /*
+        Deslocar a área de visualização (analogia: mover uma “janela deslizante”)
 
         Syntax: slide <direcao: up/down/right/left> <linhas/colunas>
-        É aceite uma alternativa (documentada) que seja mais fácil de escrever pelo utilizador
-
  */
 
 class comSlide : public Comando{
