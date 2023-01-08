@@ -76,7 +76,7 @@ void Reserva::mostraReserva() const{
     for (int i = 0; i < NC; i++) {
 
         for (int j = 0; j < NL; j++) {
-            
+
             //Se não houver comidas nem animais, preenche a reserva toda a '_'
             if(animais.empty() && alimentos.empty()){
                 for(int aux = 0; aux < NC; aux++)
