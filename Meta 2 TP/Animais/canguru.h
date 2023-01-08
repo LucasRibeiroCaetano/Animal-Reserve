@@ -12,7 +12,7 @@ class Canguru : Animal{
 public:
 
     //Nasce -> Construtor
-    Canguru(int id, Reserva &reserva, string nome = "Julio", int linha = 0, int coluna = 0);
+    Canguru(int id, Reserva &reserva, string nome = "Julio", int x = 0, int y = 0);
 
     //Morre -> Destrutor
     ~Canguru();

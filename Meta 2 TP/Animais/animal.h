@@ -19,8 +19,8 @@ protected:
     int saude,
         fome,
         id,
-        linha,
-        coluna,
+        x,
+        y,
         percecao;
 
     bool vivo;
@@ -30,14 +30,22 @@ protected:
 
 public:
 
-    //Nasce -> Construtor
-    Animal(int id, string nome, int linha = 0, int coluna = 0);
+    //Construtor
+    Animal(int id, string nome, int x, int y);
+
+    //Destrutor
     virtual ~Animal();
 
     virtual void movimento() = 0;
     virtual void alimentacao() = 0;
     virtual void interacao() = 0;
     virtual void reproduz() = 0;
+
+    char getChar() const;
+
+    //Coordenadas
+    int getX() const;
+    int getY() const;
 };
 
 

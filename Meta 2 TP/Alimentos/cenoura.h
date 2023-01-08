@@ -12,7 +12,7 @@ class Cenoura : Alimento{
 
 public:
 
-    Cenoura(int id, Reserva &reserva, int linha = 0, int coluna = 0);
+    Cenoura(int id, Reserva &reserva, int x, int y);
     ~Cenoura();
 
 };

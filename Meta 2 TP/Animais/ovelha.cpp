@@ -1,6 +1,6 @@
 #include "ovelha.h"
 
-Ovelha:: Ovelha(int id, Reserva &reserva, string nome, int linha, int coluna): Animal(id, nome, linha, coluna){
+Ovelha:: Ovelha(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
 
     especie = "ovelha";
     representacao = 'O';

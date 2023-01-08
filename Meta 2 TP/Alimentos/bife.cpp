@@ -1,6 +1,6 @@
 #include "bife.h"
 
-Bife:: Bife(int id, Reserva &reserva, int linha, int coluna): Alimento(id, reserva, linha, coluna){
+Bife:: Bife(int id, Reserva &reserva, int x, int y): Alimento(id, reserva, x, y){
 
     tipo = 'b';
     valorNutritivo = 10;
