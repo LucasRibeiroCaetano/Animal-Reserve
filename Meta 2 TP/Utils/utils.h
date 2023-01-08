@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int contaPalavras(const string& com);
-bool isNumber(const string& s);
+int contaPalavras(const string &com);
+bool isNumber(const string &s);
 
 #endif //META_2_TP_UTILS_H

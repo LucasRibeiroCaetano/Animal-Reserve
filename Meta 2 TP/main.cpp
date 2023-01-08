@@ -1,4 +1,6 @@
 #include "Reserva/reserva.h"
+#include "Animais/animal.h"
+#include "Alimentos/alimento.h"
 #include "Utils/utils.h"
 
 using namespace std;

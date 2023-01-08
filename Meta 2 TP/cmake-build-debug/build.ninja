@@ -55,11 +55,185 @@ build CMakeFiles/Meta_2_TP.dir/main.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/U
   OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
   OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir
 
+build CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comando.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comando.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Animais/animal.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/animal.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\animal.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/alimento.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/alimento.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\alimento.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
+
 build CMakeFiles/Meta_2_TP.dir/Utils/utils.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Utils/utils.cpp || cmake_object_order_depends_target_Meta_2_TP
   DEP_FILE = CMakeFiles\Meta_2_TP.dir\Utils\utils.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
   OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Utils
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comFeed.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comFeed.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comFeed.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comKill.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comKill.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comKill.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comFood.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comFood.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comFood.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comAnimal.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comAnimal.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comAnimal.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comNofood.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comNofood.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comNofood.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comEmpty.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comEmpty.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comEmpty.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comSee.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comSee.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comSee.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comInfo.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comInfo.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comInfo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comN.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comN.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comN.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comAnim.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comAnim.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comAnim.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comVisanim.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comVisanim.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comVisanim.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comStore.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comStore.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comStore.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comLoad.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comLoad.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comLoad.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comRestore.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comRestore.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comRestore.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comSlide.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comSlide.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comSlide.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comExit.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comExit.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comExit.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Animais/coelho.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/coelho.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\coelho.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Animais/ovelha.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/ovelha.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\ovelha.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Animais/lobo.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/lobo.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\lobo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Animais/canguru.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/canguru.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\canguru.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Animais/animalMisterio.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Animais/animalMisterio.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Animais\animalMisterio.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Animais
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/relva.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/relva.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\relva.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/cenoura.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/cenoura.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\cenoura.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/corpo.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/corpo.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\corpo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/bife.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/bife.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\bife.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
+
+build CMakeFiles/Meta_2_TP.dir/Alimentos/alimentoMisterio.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Alimentos/alimentoMisterio.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Alimentos\alimentoMisterio.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Alimentos
 
 build CMakeFiles/Meta_2_TP.dir/Reserva/reserva.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Reserva/reserva.cpp || cmake_object_order_depends_target_Meta_2_TP
   DEP_FILE = CMakeFiles\Meta_2_TP.dir\Reserva\reserva.cpp.obj.d
@@ -73,6 +247,24 @@ build CMakeFiles/Meta_2_TP.dir/Reserva/segmento.cpp.obj: CXX_COMPILER__Meta_2_TP
   OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
   OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Reserva
 
+build CMakeFiles/Meta_2_TP.dir/Comandos/ComandHandler.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/ComandHandler.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\ComandHandler.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comKillid.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comKillid.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comKillid.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
+build CMakeFiles/Meta_2_TP.dir/Comandos/comFeedid.cpp.obj: CXX_COMPILER__Meta_2_TP_Debug C$:/Users/Lucas/Documents/Universidade/2$ Ano/POO/Meta$ 2$ TP/Meta$ 2$ TP/Comandos/comFeedid.cpp || cmake_object_order_depends_target_Meta_2_TP
+  DEP_FILE = CMakeFiles\Meta_2_TP.dir\Comandos\comFeedid.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Meta_2_TP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Meta_2_TP.dir\Comandos
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Meta_2_TP
@@ -81,7 +273,7 @@ build CMakeFiles/Meta_2_TP.dir/Reserva/segmento.cpp.obj: CXX_COMPILER__Meta_2_TP
 #############################################
 # Link the executable Meta_2_TP.exe
 
-build Meta_2_TP.exe: CXX_EXECUTABLE_LINKER__Meta_2_TP_Debug CMakeFiles/Meta_2_TP.dir/main.cpp.obj CMakeFiles/Meta_2_TP.dir/Utils/utils.cpp.obj CMakeFiles/Meta_2_TP.dir/Reserva/reserva.cpp.obj CMakeFiles/Meta_2_TP.dir/Reserva/segmento.cpp.obj
+build Meta_2_TP.exe: CXX_EXECUTABLE_LINKER__Meta_2_TP_Debug CMakeFiles/Meta_2_TP.dir/main.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comando.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/animal.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/alimento.cpp.obj CMakeFiles/Meta_2_TP.dir/Utils/utils.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comFeed.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comKill.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comFood.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comAnimal.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comNofood.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comEmpty.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comSee.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comInfo.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comN.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comAnim.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comVisanim.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comStore.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comLoad.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comRestore.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comSlide.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comExit.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/coelho.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/ovelha.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/lobo.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/canguru.cpp.obj CMakeFiles/Meta_2_TP.dir/Animais/animalMisterio.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/relva.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/cenoura.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/corpo.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/bife.cpp.obj CMakeFiles/Meta_2_TP.dir/Alimentos/alimentoMisterio.cpp.obj CMakeFiles/Meta_2_TP.dir/Reserva/reserva.cpp.obj CMakeFiles/Meta_2_TP.dir/Reserva/segmento.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/ComandHandler.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comKillid.cpp.obj CMakeFiles/Meta_2_TP.dir/Comandos/comFeedid.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Meta_2_TP.dir

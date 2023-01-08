@@ -2,6 +2,7 @@
 #define META_2_TP_ALIMENTO_H
 
 #include "../Utils/utils.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -20,13 +21,12 @@ protected:
 
     vector<string> cheiros;
 
-
 public:
 
     char tipo;
 
-    Alimento(int id, int linha, int coluna);
-    Alimento(int id, int linha, int coluna, int valorNutritivo, int toxicidade);
+    Alimento(int id, Reserva &reserva, int linha, int coluna);
+    Alimento(int id, Reserva &reserva, int linha, int coluna, int valorNutritivo, int toxicidade);
 
     virtual ~Alimento() = 0;
 

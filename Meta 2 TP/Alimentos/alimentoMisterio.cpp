@@ -1,6 +1,6 @@
 #include "alimentoMisterio.h"
 
-alimentoMisterio::alimentoMisterio(int id, int linha, int coluna) : Alimento(id, linha , coluna) {
+alimentoMisterio::alimentoMisterio(int id, Reserva &reserva, int linha, int coluna) : Alimento(id, reserva, linha , coluna) {
 
     /*
     Ainda a ser definido...

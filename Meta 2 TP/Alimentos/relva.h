@@ -3,6 +3,7 @@
 
 #include "alimento.h"
 #include "../Utils/utils.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -10,7 +11,7 @@ class Relva : public Alimento {
 
 public:
 
-    Relva(int id, int linha = 0, int coluna = 0);
+    Relva(int id, Reserva &reserva, int linha = 0, int coluna = 0);
     ~Relva();
 
     void novaRelva();

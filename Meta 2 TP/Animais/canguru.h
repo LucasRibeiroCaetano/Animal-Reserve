@@ -3,6 +3,7 @@
 
 #include "animal.h"
 #include "../Utils/utils.h"
+#include "../Reserva/reserva.h"
 
 class Canguru : Animal{
 
@@ -11,10 +12,10 @@ class Canguru : Animal{
 public:
 
     //Nasce -> Construtor
-    Canguru(int id, string nome = "Julio", int linha = 0, int coluna = 0);
+    Canguru(int id, Reserva &reserva, string nome = "Julio", int linha = 0, int coluna = 0);
 
     //Morre -> Destrutor
-    ~Canguru() override;
+    ~Canguru();
 
     void movimento() override;
     void alimentacao() override;

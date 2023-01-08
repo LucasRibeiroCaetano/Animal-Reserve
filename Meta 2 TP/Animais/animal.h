@@ -2,6 +2,7 @@
 #define META_2_TP_ANIMAL_H
 
 #include "../Utils/utils.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -30,15 +31,13 @@ public:
     char representacao;
 
     //Nasce -> Construtor
-    Animal(int id,string nome, int linha = 0, int coluna = 0);
-    virtual ~Animal() = 0;
-
+    Animal(int id, string nome, int linha = 0, int coluna = 0);
+    virtual ~Animal();
 
     virtual void movimento() = 0;
     virtual void alimentacao() = 0;
     virtual void interacao() = 0;
     virtual void reproduz() = 0;
-
 };
 
 

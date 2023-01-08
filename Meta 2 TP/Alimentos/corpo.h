@@ -11,7 +11,7 @@ class Corpo : Alimento{
 
 public:
 
-    Corpo(int id, int linha, int coluna, int valorNutritivo, int toxicidade);
+    Corpo(int id, Reserva &reserva, int linha, int coluna, int valorNutritivo, int toxicidade);
     ~Corpo();
 
 };

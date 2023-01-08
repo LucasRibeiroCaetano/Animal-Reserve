@@ -242,6 +242,15 @@ Meta_2_TP_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Meta_2_TP_SOURCE_DIR:STATIC=C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP
 
+//Value Computed by CMake
+Trabalho_POO_M2_BINARY_DIR:STATIC=C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP/cmake-build-debug
+
+//Value Computed by CMake
+Trabalho_POO_M2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Trabalho_POO_M2_SOURCE_DIR:STATIC=C:/Users/Lucas/Documents/Universidade/2 Ano/POO/Meta 2 TP/Meta 2 TP
+
 
 ########################
 # INTERNAL cache entries

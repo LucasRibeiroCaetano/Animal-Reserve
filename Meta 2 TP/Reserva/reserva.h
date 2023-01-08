@@ -20,11 +20,12 @@ class Reserva {
             AVlimX,
             AVlimY;
 
+    //Vetores que vão armazenar a informação
+    vector< Alimento* > alimentos;
+    vector< Animal* > animais;
 
-
-    Segmento** segmentos;
-    //Cada segmento é uma classe que representa um bloco da reserva.
-    //Em cada bloco vai ser guardado dinâmicamente uma lista com os animais e a comida que lá residem.
+    //Array que guarda os caracteres a serem mostrados
+    char displayChar[NC][NL];
 
 
 public:
@@ -40,8 +41,8 @@ public:
     int getNC() const;
 
     void mostraReserva() const;
-
-    Segmento** getSegmentos() const;
+    void addAnimal(Animal * animal);
+    void addAlimento(Alimento * alimento);
 };
 
 

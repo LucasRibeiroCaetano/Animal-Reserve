@@ -3,6 +3,7 @@
 
 #include "animal.h"
 #include "../Utils/utils.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -11,10 +12,10 @@ class animalMisterio : public Animal{
 public:
 
     //Nasce -> Construtor
-    animalMisterio(int id, string nome, int linha, int coluna);
+    animalMisterio(int id, string nome, Reserva &reserva, int linha, int coluna);
 
     //Morre -> Destrutor
-    ~animalMisterio() override;
+    ~animalMisterio();
 
     void movimento() override;
     void alimentacao() override;
