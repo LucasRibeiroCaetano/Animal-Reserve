@@ -25,3 +25,7 @@ void animalMisterio::interacao() {
     //animal::interacao();
 
 }
+
+void animalMisterio::reproduz() {
+
+}

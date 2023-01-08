@@ -34,3 +34,7 @@ void Lobo::interacao() {
     //animal::interacao();
 
 }
+
+void Lobo::reproduz() {
+
+}

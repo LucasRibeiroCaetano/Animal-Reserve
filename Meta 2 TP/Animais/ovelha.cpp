@@ -36,3 +36,7 @@ void Ovelha::interacao() {
     //animal::interacao();
 
 }
+
+void Ovelha::reproduz() {
+
+}

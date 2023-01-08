@@ -20,6 +20,9 @@ public:
     void movimento() override;
     void alimentacao() override;
     void interacao() override;
+    void reproduz() override;
+
+
 
 };
 

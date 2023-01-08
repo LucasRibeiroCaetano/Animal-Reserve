@@ -37,3 +37,9 @@ void Coelho::alimentacao() {
     //animal::alimentacao();
 
 }
+
+void Coelho::reproduz() {
+
+    //animal::alimentacao();
+
+}
