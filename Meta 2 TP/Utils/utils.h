@@ -6,10 +6,12 @@
 #include <sstream>
 #include <vector>
 #include <fstream>
+#include <algorithm>
+#include <string>
 
 using namespace std;
 
 int contaPalavras(const string& com);
-bool isNumber(const string s);
+bool isNumber(const string& s);
 
 #endif //META_2_TP_UTILS_H

@@ -1,13 +1,13 @@
 #include "reserva.h"
 
-Reserva::Reserva(int lar, int alt) : AVlar(), AValt(20){
+Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt){
 
     random_device rd;
     mt19937 gen(rd());
-    uniform_int_distribution<> size(16, 500);
-
-    NC = size(gen);
-    NL = size(gen);
+    uniform_int_distribution<> sizeNC(AVlar, 500);
+    uniform_int_distribution<> sizeNL(AValt, 500);
+    NC = sizeNC(gen);
+    NL = sizeNL(gen);
 
     segmentos = new Segmento*[NC];
 
@@ -62,11 +62,15 @@ int Reserva::getLimY() const {
 
 void Reserva::mostraReserva() const{
 
-    //Atualiza reserva
-    //TODO: Este método irá verificar se na primeira posição do array de animais está algum animal se tiver,
-    //      então o caracter a ser mostrado irá ser o caracter desse animal "animalEmCausa.getDisplay()".
-    //      Se dentro do array de animais não estiver nada, vamos verificar se existe alguma comida.
-    //      Se existir comida então mostramos o caractér da comida "comida.getDisplay()".
+    /*
+        |=| Atualiza reserva |=|
+        Este loop irá verificar se na primeira posição do array de animais está algum animal se tiver,
+        então o caracter a ser mostrado irá ser o caracter desse animal "animalEmCausa.getDisplay()".
+        Se dentro do array de animais não estiver nada, vamos verificar se existe alguma comida.
+        Se existir comida então mostramos o caractér da comida "comida.getDisplay()".
+     */
+
+    cout << "\n\n";
 
     for(int i = 0; i < NC; i++){
 
@@ -93,18 +97,39 @@ void Reserva::mostraReserva() const{
 
     }
 
+    segmentos[AVcseX + 4][AVcseY+ 2].setDisplay('M');
+    segmentos[AVcseX + 8][AVcseY+1].setDisplay('l');
+
+    for(int i = 0; i <= AVlar * 4; i++)
+        cout << "=";
+
+    cout << endl;
+
     //Mostra a reserva atualizada
-    for(int i = 0; i < NC; i++){
+    for(int i = AVcseY; i < AVlimY; i++){
 
-        for(int j = 0; j < NL; j++){
+        for(int j = AVcseX; j < AVlimX; j++){
 
-            cout << segmentos[i][j].getDisplay();
+            if (j == AVcseX)
+                cout << "| ";
 
+            else
+                cout << " | ";
+
+            cout << segmentos[j][i].getDisplay();
+
+            if(j == AVlimX -1)
+                cout << " |";
         }
+
 
         cout << '\n';
     }
 
+    for(int i = 0; i <= AVlar * 4; i++)
+        cout << "=";
+
+    cout << "\n\n";
 }
 
 
