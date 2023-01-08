@@ -26,3 +26,5 @@ void comKillid::execute(const string &comando) {
 
     id = stoi(idDado);
 }
+
+comKillid::comKillid() = default;

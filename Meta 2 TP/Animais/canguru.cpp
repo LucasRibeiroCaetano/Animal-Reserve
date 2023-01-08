@@ -1,6 +1,6 @@
 #include "canguru.h"
 
-Canguru:: Canguru(int id, string nome, int x, int y): Animal(id, nome, x, y){
+Canguru:: Canguru(int id, int x, int y,const string& nome): Animal(id,x,y,nome){
     especie = "canguru";
     representacao = 'G';
     peso = 10;

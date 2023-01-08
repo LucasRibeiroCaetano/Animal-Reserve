@@ -26,3 +26,5 @@ void comInfo::execute(const string &comando) {
 
     id = stoi(idDado);
 }
+
+comInfo::comInfo() = default;

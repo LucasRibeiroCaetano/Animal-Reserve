@@ -43,3 +43,5 @@ void comFeed::execute(const string &comando) {
     ptsToxicidade = stoi(toxicidade);
 
 }
+
+comFeed::comFeed() = default;

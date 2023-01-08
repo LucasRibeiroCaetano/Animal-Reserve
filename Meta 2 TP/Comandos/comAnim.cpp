@@ -10,3 +10,5 @@ void comAnim::execute(const string &comando) {
 
     }
 }
+
+comAnim::comAnim() = default;

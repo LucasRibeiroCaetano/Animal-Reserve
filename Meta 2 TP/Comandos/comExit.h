@@ -3,6 +3,7 @@
 
 #include "../Utils/utils.h"
 #include "comando.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -12,7 +13,8 @@ class comExit : public Comando{
 
 public:
 
-    void execute(const string &comando) override;
+    comExit();
+    void execute(const string &comando, Reserva &reserva) override;
 
 };
 

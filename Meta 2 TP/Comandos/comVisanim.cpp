@@ -9,3 +9,5 @@ void comVisanim::execute(const string &comando) {
 
     }
 }
+
+comVisanim::comVisanim() = default;

@@ -44,4 +44,6 @@ void comFood::execute(const string &comando) {
     }
 }
 
+comFood::comFood() = default;
+
 

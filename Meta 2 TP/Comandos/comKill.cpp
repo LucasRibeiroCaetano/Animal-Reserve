@@ -18,11 +18,19 @@ void comKill::execute(const string &comando) {
             cout << "\nCoordenadas invalidas...";
             return;
         }
-    }else{
+    }
+    else{
         cout << "\nNumero de argumentos incorreto...";
         return;
     }
 
-    nLinha = stoi(linha);
-    nColuna = stoi(coluna);
+    for(int i = 0; i < reserva.getNC()*reserva.getNL(); i++){
+
+        //Se existir um animal nessa posição
+        if(reserva.getAnimais()[i]->getX() == nLinha && reserva.getAnimais()[i]->getY() == nColuna)
+            delete reserva.getAnimais()[i];
+
+    }
 }
+
+comKill::comKill() = default;

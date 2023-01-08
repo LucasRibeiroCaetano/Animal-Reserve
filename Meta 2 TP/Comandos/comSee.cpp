@@ -26,3 +26,5 @@ void comSee::execute(const string &comando) {
     nLinha = stoi(linha);
     nColuna = stoi(coluna);
 }
+
+comSee::comSee() = default;

@@ -30,3 +30,5 @@ void comN::execute(const string &comando) {
         cout << "\nNumero de argumentos incorreto...";
     }
 }
+
+comN::comN() = default;

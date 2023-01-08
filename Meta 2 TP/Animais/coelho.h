@@ -15,7 +15,7 @@ class Coelho : Animal{
 public:
 
     //Nasce -> Construtor
-    Coelho(int id, string nome = "Roberto", int x = 0, int y = 0);
+    Coelho(int id, int x = 0, int y = 0, const string& nome = "Roberto");
 
     //Morre -> Destrutor
     ~Coelho();

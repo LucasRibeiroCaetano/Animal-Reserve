@@ -13,6 +13,9 @@ class Reserva {
     int     NL,
             NC,
 
+            //ID para todos os alimentos e animais
+            ID,
+
             //Variáveis da Área Visível
             AVlar,
             AValt,
@@ -33,12 +36,23 @@ public:
     Reserva(int largura, int altura);
     ~Reserva();
 
+    //Getters
     int getCseX() const;
     int getCseY() const;
     int getLimX() const;
     int getLimY() const;
     int getNL() const;
     int getNC() const;
+    int getID() const;
+
+    const vector<Animal *> &getAnimais() const;
+
+    //Setters
+    void setID(int id);
+    void setDisplayChar(char c, int x, int y);
+
+
+
 
     void mostraReserva() const;
     void addAnimal(Animal * animal);

@@ -38,3 +38,5 @@ void comFeedid::execute(const string &comando) {
     ptsToxicidade = stoi(toxicidade);
     id = stoi(idDado);
 }
+
+comFeedid::comFeedid() = default;

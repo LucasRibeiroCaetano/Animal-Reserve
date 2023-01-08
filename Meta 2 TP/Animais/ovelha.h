@@ -13,7 +13,7 @@ class Ovelha : Animal{
 public:
 
     //Nasce -> Construtor
-    Ovelha(int id, string nome = "Gertrudes", int x = 0, int y = 0);
+    Ovelha(int id, int x = 0, int y = 0, const string& nome = "Gertrudes");
 
     //Morre -> Destrutor
     ~Ovelha();

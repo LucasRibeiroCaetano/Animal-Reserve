@@ -1,5 +1,7 @@
 #include "animal.h"
 
+#include <utility>
+
 using namespace std;
 
 Animal::Animal(int id, string nome, int x, int y) : id(id), nome(nome), vivo(true){}

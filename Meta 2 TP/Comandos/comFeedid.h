@@ -4,6 +4,7 @@
 #include "../Utils/utils.h"
 #include "../Animais/animal.h"
 #include "comando.h"
+#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -17,7 +18,8 @@ using namespace std;
 class comFeedid : public Comando{
 public:
 
-    void execute(const string &comando) override;
+    comFeedid();
+    void execute(const string &comando, Reserva &reserva) override;
 
 };
 

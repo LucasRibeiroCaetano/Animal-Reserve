@@ -1,4 +1,5 @@
 #include "animalMisterio.h"
+#include <utility>
 
 animalMisterio::animalMisterio(int id, string nome, int x, int y) : Animal(id, nome, x, y) {
 

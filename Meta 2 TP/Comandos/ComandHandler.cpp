@@ -1,13 +1,15 @@
-#include <string>
 #include "ComandHandler.h"
 
-ComandHandler :: ComandHandler(){};
+ComandHandler :: ComandHandler() {
+    done = false;
+}
 
-string ComandHandler :: pedeComando(){
+string ComandHandler::pedeComando(){
     string comando;
 
     cout << "\nComando:";
     getline(cin, comando);
+
     return comando;
 }
 

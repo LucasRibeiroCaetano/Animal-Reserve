@@ -1,6 +1,6 @@
 #include "reserva.h"
 
-Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt){
+Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt), ID(0){
 
     random_device rd;
     mt19937 gen(rd());
@@ -73,66 +73,45 @@ void Reserva::mostraReserva() const{
 
     cout << "\n\n";
 
-    for (int i = 0; i < NC; i++) {
-
-        for (int j = 0; j < NL; j++) {
-
-            //Se não houver comidas nem animais, preenche a reserva toda a '_'
-            if(animais.empty() && alimentos.empty()){
-                for(int aux = 0; aux < NC; aux++)
-                    for(int aux1 = 0; aux1 < NL; aux1++)
-                        displayChar[aux][aux1] = '_';
-            }
-
-            else{
-                for (int k = 0; k < NC * NL; k++){
-
-                    //Se houver um animal nessa posição, mostra o caracter do animal,
-                    //como a pesquisa é feita de forma sequencial, a partir do momento
-                    //em que encontramos um animal numa localização ele mostra logo o
-                    //caracter desse animal. Pois foi o primeiro a ser inserido no vetor
-                    //ou seja, consequentemente, o primeiro inserido nessa posição
-                    if (animais[k]->getX() == i && animais[k]->getY() == j)
-                        displayChar[i][j] = animais[k]->getChar();
-
-                    //Se houver um alimento nessa posição, etc
-                    else if (alimentos[k]->getX() == i && alimentos[k]->getY() == j)
-                        displayChar[i][j] = alimentos[k]->getChar();
-                }
-
-            }
-
-        }
+    //Imprime Reserva
+    for (int i = 0; i < (AVlimX - AVcseX) * 4 + 1; i++) {
+        cout << '=';
     }
-
-    for(int i = 0; i <= AVlar * 4; i++)
-        cout << "=";
 
     cout << endl;
 
-    //Mostra a reserva atualizada
-    for(int i = AVcseY; i < AVlimY; i++){
-
-        for(int j = AVcseX; j < AVlimX; j++){
-
-            if (j == AVcseX)
-                cout << "| ";
-
-            else
-                cout << " | ";
-
-            cout << displayChar[j][i];
-
-            if(j == AVlimX -1)
-                cout << " |";
+    for (int i = AVcseY; i < AVlimY; i++) {
+        if (i != AVcseY) {
+            for (int j = 0; j < (AVlimX - AVcseX) * 4 + 1; j++) {
+                cout << '-';
+            }
+            cout << endl;
         }
-
-
-        cout << '\n';
+        for (int j = AVcseX; j < AVlimX; j++) {
+            if (j == AVcseX) cout << "| ";
+            char c = '_';
+            for (Alimento * a : alimentos) {
+                if (a->getX() == j && a->getY() == i) {
+                    c = a->getChar();
+                    break;
+                }
+            }
+            if (c == '_') {
+                for (Animal * a : animais) {
+                    if (a->getX() == j && a->getY() == i) {
+                        c = a->getChar();
+                        break;
+                    }
+                }
+            }
+            cout << c << " | ";
+        }
     }
 
-    for(int i = 0; i <= AVlar * 4; i++)
-        cout << "=";
+    for (int i = 0; i < (AVlimX - AVcseX) * 4 + 1; i++) {
+        cout << '=';
+    }
+    cout << endl;
 
     cout << "\n\n";
 }
@@ -143,6 +122,18 @@ void Reserva::addAnimal(Animal *animal) {
 
 void Reserva::addAlimento(Alimento *alimento) {
     alimentos.push_back(alimento);
+}
+
+int Reserva::getID() const {
+    return ID;
+}
+
+void Reserva::setID(int id) {
+    ID = id;
+}
+
+const vector<Animal *> &Reserva::getAnimais() const {
+    return animais;
 }
 
 

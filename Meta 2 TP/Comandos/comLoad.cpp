@@ -89,3 +89,5 @@ void comLoad::execute(const string &comando) {
 
 
 }
+
+comLoad::comLoad() = default;

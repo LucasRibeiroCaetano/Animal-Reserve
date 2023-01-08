@@ -25,3 +25,5 @@ void comEmpty::execute(const string &comando) {
     nLinha = stoi(linha);
     nColuna = stoi(coluna);
 }
+
+comEmpty::comEmpty() = default;

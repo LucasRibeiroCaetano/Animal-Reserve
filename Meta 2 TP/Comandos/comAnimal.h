@@ -20,7 +20,8 @@ class comAnimal : public Comando{
 
 public:
 
-    void execute(const string &comando) override;
+    comAnimal();
+    void execute(const string &comando, Reserva &reserva) override;
 
 };
 

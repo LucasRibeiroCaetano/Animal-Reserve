@@ -10,3 +10,5 @@ void comExit::execute(const string &comando) {
 
     }
 }
+
+comExit::comExit() = default;

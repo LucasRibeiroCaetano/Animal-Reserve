@@ -13,7 +13,6 @@ void comNofood::execute(const string &comando) {
             // if(stoi(linha) > NL || stoi(coluna) > NC|| ){ //Verifica se a linha e coluna estao dentro da reserva
             cout << "\nCoordenadas fora da reserva...";
             return;
-            //}
         }else{
             cout << "\nCoordenadas invalidas...";
             return;
@@ -35,3 +34,5 @@ void comNofood::execute(const string &comando) {
         return;
     }
 }
+
+comNofood::comNofood() = default;

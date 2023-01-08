@@ -1,6 +1,6 @@
 #include "coelho.h"
 
-Coelho::Coelho(int id, string nome, int x, int y): Animal(id, nome, x, y){
+Coelho::Coelho(int id, int x, int y, const string& nome): Animal(id, x, y,nome){
 
     especie = "coelho";
     representacao = 'C';

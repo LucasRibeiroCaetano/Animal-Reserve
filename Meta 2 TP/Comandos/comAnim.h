@@ -4,6 +4,11 @@
 #include "../Utils/utils.h"
 #include "../Animais/animal.h"
 #include "comando.h"
+#include "../Animais/animalMisterio.h"
+#include "../Animais/canguru.h"
+#include "../Animais/coelho.h"
+#include "../Animais/lobo.h"
+#include "../Animais/ovelha.h"
 
 using namespace std;
 
@@ -17,7 +22,8 @@ class comAnim : public Comando{
 
 public:
 
-    void execute(const string &comando) override;
+    comAnim();
+    void execute(const string &comando, Reserva &reserva) override;
 
 };
 

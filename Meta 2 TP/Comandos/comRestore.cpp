@@ -23,3 +23,5 @@ void comRestore::execute(const string &comando) {
         return;
     }
 }
+
+comRestore::comRestore() = default;

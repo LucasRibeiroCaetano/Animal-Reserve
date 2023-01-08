@@ -9,6 +9,9 @@ int main() {
     int x, y;
     string input;
 
+    //Criação de um objeto handler
+    ComandHandler handler;
+
     cout << "\n(=====================|| Trabalho Final POO 2021/2022 ||=====================)" << endl;
 
     cout << "\nQual e a medida da area visivel que vai desejar (largura, altura)?\n>";
@@ -54,7 +57,17 @@ int main() {
 
     cout << "Informacao da Reserva: \n\n" << "NC:" << reserva.getNC()  << endl << "NL:" << reserva.getNL()  << endl << "CseX: " << reserva.getCseX() << "\nCseY: " << reserva.getCseY() << "\nLimX: " << reserva.getLimX() << "\nLimY: " << reserva.getLimY() <<  endl;
 
-    reserva.mostraReserva();
+    do{
+
+        reserva.mostraReserva();
+
+        result =  handler.procuraComando(handler.pedeComando(), reserva);
+
+        cout << "Result: " << result <<  endl;
+    }
+    while(result == 0 || result == 2);
+
+    cout << "\nA terminar programa -- Ate a proxima!\n";
 
     return 0;
 }
