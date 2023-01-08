@@ -10,7 +10,7 @@ class Bife : Alimento{
 
 public:
 
-    Bife(int id, Reserva &reserva, int linha, int coluna);
+    Bife(int id, Reserva &reserva, int x, int y);
     ~Bife();
 
 };

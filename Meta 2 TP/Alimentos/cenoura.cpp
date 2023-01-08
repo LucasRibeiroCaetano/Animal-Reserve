@@ -1,6 +1,6 @@
 #include "cenoura.h"
 
-Cenoura::Cenoura(int id, Reserva &reserva, int linha, int coluna) : Alimento(id, reserva, linha , coluna){
+Cenoura::Cenoura(int id, Reserva &reserva, int x, int y) : Alimento(id, reserva, x , y){
     tipo = 't';
     valorNutritivo = 4;
     toxicidade = 0;

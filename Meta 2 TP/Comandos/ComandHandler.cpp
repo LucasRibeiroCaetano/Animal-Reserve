@@ -68,6 +68,9 @@ void ComandHandler::procuraComando(const string& comando ){
         else if(com == "slide"){
 
         }
+        else{
+            cout << "Comando Invalido...";
+        }
     }
     while(com != "exit");
 

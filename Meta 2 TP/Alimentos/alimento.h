@@ -16,8 +16,8 @@ protected:
         valorNutritivo,
         toxicidade,
         duracao,
-        linha,
-        coluna;
+        x,
+        y;
 
     vector<string> cheiros;
 
@@ -25,10 +25,14 @@ public:
 
     char tipo;
 
-    Alimento(int id, Reserva &reserva, int linha, int coluna);
-    Alimento(int id, Reserva &reserva, int linha, int coluna, int valorNutritivo, int toxicidade);
+    Alimento(int id, int x, int y);
+    Alimento(int id, int x , int y, int valorNutritivo, int toxicidade);
 
     virtual ~Alimento() = 0;
+
+    char getChar() const;
+    int getX() const;
+    int getY() const;
 
 };
 

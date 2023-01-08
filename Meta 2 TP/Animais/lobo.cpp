@@ -1,6 +1,6 @@
 #include "lobo.h"
 
-Lobo:: Lobo(int id, Reserva &reserva, string nome, int linha, int coluna): Animal(id, nome, linha, coluna){
+Lobo:: Lobo(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
     especie = "lobo";
     representacao = 'L';
     peso = 15;

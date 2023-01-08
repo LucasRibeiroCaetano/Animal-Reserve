@@ -1,6 +1,6 @@
 #include "relva.h"
 
-Relva::Relva(int id, Reserva &reserva,  int linha, int coluna) : Alimento(id, reserva, linha, coluna) {
+Relva::Relva(int id, Reserva &reserva,  int x, int y) : Alimento(id, reserva, x, y) {
 
     tipo =  'r';
     valorNutritivo = 3;
