@@ -73,8 +73,6 @@ void Reserva::mostraReserva() const{
 
     cout << "\n\n";
 
-    cout << "Inicio do mostraReserva" << endl;
-
     for (int i = 0; i < NC; i++) {
 
         for (int j = 0; j < NL; j++) {
@@ -123,7 +121,7 @@ void Reserva::mostraReserva() const{
             else
                 cout << " | ";
 
-            cout << displayChar[i][j];
+            cout << displayChar[j][i];
 
             if(j == AVlimX -1)
                 cout << " |";
