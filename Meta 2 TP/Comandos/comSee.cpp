@@ -1,6 +1,7 @@
 #include "comSee.h"
 
 void comSee::execute(const string &comando) {
+
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 

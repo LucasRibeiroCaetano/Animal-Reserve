@@ -1,6 +1,7 @@
 #include "comFeedid.h"
 
 void comFeedid::execute(const string &comando) {
+
     int n = contaPalavras(comando);
     int nLinha, nColuna, ptsNutritivos, ptsToxicidade, id;
 
@@ -36,5 +37,4 @@ void comFeedid::execute(const string &comando) {
     ptsNutritivos = stoi(nutritivos);
     ptsToxicidade = stoi(toxicidade);
     id = stoi(idDado);
-
 }

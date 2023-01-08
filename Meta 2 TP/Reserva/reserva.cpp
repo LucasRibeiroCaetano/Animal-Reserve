@@ -10,6 +10,12 @@ Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt){
     NC = sizeNC(gen);
     NL = sizeNL(gen);
 
+    //Alocar o tamanho de displayChar
+    displayChar = new char*[NC];
+    for (int i = 0; i < NC; i++) {
+        displayChar[i] = new char[NL];
+    }
+
     uniform_int_distribution<> AVlarDis(0, NC - AVlar);
     uniform_int_distribution<> AValtDis(0, NL - AValt);
 
@@ -18,8 +24,6 @@ Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt){
 
     AVlimX = AVcseX + AVlar;
     AVlimY = AVcseY + AValt;
-
-
 }
 
 Reserva::~Reserva() {
@@ -29,6 +33,11 @@ Reserva::~Reserva() {
 
     for (Animal *animal: animais)
         delete animal;
+
+    for (int i = 0; i < NC; i++) {
+        delete [] displayChar[i];
+    }
+    delete [] displayChar;
 
 }
 
@@ -75,15 +84,23 @@ void Reserva::mostraReserva() const{
                 //em que encontramos um animal numa localização ele mostra logo o
                 //caracter desse animal. Pois foi o primeiro a ser inserido no vetor
                 //ou seja, consequentemente, o primeiro inserido nessa posição
-                if (animais[k]->getLoc()[0] == i && animais[k]->getLoc()[1] == j){
+                if (animais[k]->getX() == i && animais[k]->getY() == j){
 
-                    displayChar[i][j] = animais[k].getChar();
+                    displayChar[i][j] = animais[k]->getChar();
 
                 }
 
-                //
-                else if (alimentos[k]->getLoc()[0] == i && alimentos[k]->getLoc()[1] == j){
+                //Se houver um alimento nessa posição, etc
+                else if (alimentos[k]->getX() == i && alimentos[k]->getY() == j){
 
+                    displayChar[i][j] = alimentos[k]->getChar();
+
+                }
+
+                //Não existe nada na posição
+                else{
+
+                    displayChar[i][j] = '_';
 
                 }
 
@@ -108,7 +125,7 @@ void Reserva::mostraReserva() const{
             else
                 cout << " | ";
 
-            cout << getDisplay();
+            cout << displayChar[i][j];
 
             if(j == AVlimX -1)
                 cout << " |";

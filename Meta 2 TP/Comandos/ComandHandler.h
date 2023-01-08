@@ -8,6 +8,7 @@ using namespace std;
 class ComandHandler {
 
 public:
+
     ComandHandler();
     string pedeComando();
     void procuraComando(const string& comando);

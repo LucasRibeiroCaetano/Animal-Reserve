@@ -1,6 +1,7 @@
 #include "comStore.h"
 
 void comStore::execute(const string &comando) {
+
     int n = contaPalavras(comando);
 
     string com, nome;

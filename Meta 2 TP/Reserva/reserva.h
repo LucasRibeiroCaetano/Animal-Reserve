@@ -2,7 +2,8 @@
 #define META_2_TP_RESERVA_H
 
 #include "../Utils/utils.h"
-#include "segmento.h"
+#include "../Animais/animal.h"
+#include "../Alimentos/alimento.h"
 
 using namespace std;
 
@@ -25,8 +26,7 @@ class Reserva {
     vector< Animal* > animais;
 
     //Array que guarda os caracteres a serem mostrados
-    char displayChar[NC][NL];
-
+    char **displayChar;
 
 public:
 

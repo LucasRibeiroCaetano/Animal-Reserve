@@ -14,7 +14,7 @@ using namespace std;
         Syntax: visanim
  */
 
-class comando_listarAnimaisAV : public Comando{
+class comVisanim : public Comando{
 
 public:
 

@@ -1,6 +1,7 @@
 #include "comKill.h"
 
 void comKill::execute(const string &comando) {
+
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 

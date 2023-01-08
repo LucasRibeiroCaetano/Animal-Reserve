@@ -1,6 +1,7 @@
 #include "comKillid.h"
 
 void comKillid::execute(const string &comando) {
+
     int n = contaPalavras(comando);
     int id;
 

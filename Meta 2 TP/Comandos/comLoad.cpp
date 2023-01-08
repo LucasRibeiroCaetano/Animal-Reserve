@@ -1,6 +1,7 @@
 #include "comLoad.h"
 
 void comLoad::execute(const string &comando) {
+
     int n = contaPalavras(comando);
 
     string com, nome;

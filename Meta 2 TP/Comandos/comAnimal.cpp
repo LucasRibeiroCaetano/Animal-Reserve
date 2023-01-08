@@ -1,6 +1,7 @@
 #include "comAnimal.h"
 
 void comAnimal::execute(const string &comando) {
+
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 

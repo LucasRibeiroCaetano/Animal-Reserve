@@ -23,12 +23,12 @@ protected:
         coluna,
         percecao;
 
-    bool vivo; //pra que isto? i mean quando morre desaparece nao? ou tranforma-se num corpo... Mas nesse caso criamos um alimento de tipo corpo nao?
+    bool vivo;
+
+    //Carater que representa visualmente o animal
+    char representacao;
 
 public:
-
-    // carater que representa visualmente o animal
-    char representacao;
 
     //Nasce -> Construtor
     Animal(int id, string nome, int linha = 0, int coluna = 0);
