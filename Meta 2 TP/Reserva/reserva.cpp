@@ -73,41 +73,39 @@ void Reserva::mostraReserva() const{
 
     cout << "\n\n";
 
-    for(int i = 0; i < NC; i++) {
+    cout << "Inicio do mostraReserva" << endl;
+
+    for (int i = 0; i < NC; i++) {
 
         for (int j = 0; j < NL; j++) {
+            
+            //Se não houver comidas nem animais, preenche a reserva toda a '_'
+            if(animais.empty() && alimentos.empty()){
+                for(int aux = 0; aux < NC; aux++)
+                    for(int aux1 = 0; aux1 < NL; aux1++)
+                        displayChar[aux][aux1] = '_';
+            }
 
-            for (int k = 0; k < NC * NL; k++) {
+            else{
+                for (int k = 0; k < NC * NL; k++){
 
-                //Se houver um animal nessa posição, mostra o caracter do animal,
-                //como a pesquisa é feita de forma sequencial, a partir do momento
-                //em que encontramos um animal numa localização ele mostra logo o
-                //caracter desse animal. Pois foi o primeiro a ser inserido no vetor
-                //ou seja, consequentemente, o primeiro inserido nessa posição
-                if (animais[k]->getX() == i && animais[k]->getY() == j){
+                    //Se houver um animal nessa posição, mostra o caracter do animal,
+                    //como a pesquisa é feita de forma sequencial, a partir do momento
+                    //em que encontramos um animal numa localização ele mostra logo o
+                    //caracter desse animal. Pois foi o primeiro a ser inserido no vetor
+                    //ou seja, consequentemente, o primeiro inserido nessa posição
+                    if (animais[k]->getX() == i && animais[k]->getY() == j)
+                        displayChar[i][j] = animais[k]->getChar();
 
-                    displayChar[i][j] = animais[k]->getChar();
-
-                }
-
-                //Se houver um alimento nessa posição, etc
-                else if (alimentos[k]->getX() == i && alimentos[k]->getY() == j){
-
-                    displayChar[i][j] = alimentos[k]->getChar();
-
-                }
-
-                //Não existe nada na posição
-                else{
-
-                    displayChar[i][j] = '_';
-
+                    //Se houver um alimento nessa posição, etc
+                    else if (alimentos[k]->getX() == i && alimentos[k]->getY() == j)
+                        displayChar[i][j] = alimentos[k]->getChar();
                 }
 
             }
+
         }
     }
-
 
     for(int i = 0; i <= AVlar * 4; i++)
         cout << "=";

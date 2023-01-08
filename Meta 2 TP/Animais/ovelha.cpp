@@ -1,6 +1,6 @@
 #include "ovelha.h"
 
-Ovelha:: Ovelha(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
+Ovelha:: Ovelha(int id, string nome, int x, int y): Animal(id, nome, x, y){
 
     especie = "ovelha";
     representacao = 'O';
@@ -11,9 +11,7 @@ Ovelha:: Ovelha(int id, Reserva &reserva, string nome, int x, int y): Animal(id,
     cheiroAgradavel = "erva";
     percecao = 3;
 
-    reserva.getSegmentos()[linha][coluna].addAnimal(this);
-
-    cout << "Ovelha '" << nome << "' de id [" << id << "] foi criada. " << endl << "Display:" <<reserva.getSegmentos()[linha][coluna].getDisplay() << endl;
+    cout << "Ovelha '" << nome << "' de id [" << id << "] foi criada. " << endl << "Display:" << representacao << endl;
 }
 
 

@@ -3,7 +3,7 @@
 Alimento::Alimento(int id, int x, int y)
 : id(id), x(x), y(y){}
 
-Alimento :: Alimento(int id, int x, int y, int valorNutritivo, int toxicidade)
+Alimento::Alimento(int id, int x, int y, int valorNutritivo, int toxicidade)
 : id(id), x(x), y(y), valorNutritivo(valorNutritivo), toxicidade(toxicidade){}
 
 
@@ -18,6 +18,8 @@ int Alimento :: getX() const{
 int Alimento::getY() const {
     return y;
 }
+
+Alimento::~Alimento() {}
 
 
 

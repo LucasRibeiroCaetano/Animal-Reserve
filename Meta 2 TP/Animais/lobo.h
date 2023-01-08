@@ -15,7 +15,7 @@ class Lobo : Animal{
 public:
 
     //Nasce -> Construtor
-    Lobo(int id, Reserva &reserva, string nome = "Quim", int x = 0, int y = 0);
+    Lobo(int id, string nome = "Quim", int x = 0, int y = 0);
 
     //Morre -> Destrutor
     ~Lobo();

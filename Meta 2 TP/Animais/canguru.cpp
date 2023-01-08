@@ -1,6 +1,6 @@
 #include "canguru.h"
 
-Canguru:: Canguru(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
+Canguru:: Canguru(int id, string nome, int x, int y): Animal(id, nome, x, y){
     especie = "canguru";
     representacao = 'G';
     peso = 10;
@@ -11,7 +11,7 @@ Canguru:: Canguru(int id, Reserva &reserva, string nome, int x, int y): Animal(i
 
    // reserva.getSegmentos()[linha][coluna].addAnimal(this);
 
-    cout << "Canguru '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" <<reserva.getSegmentos()[linha][coluna].getDisplay() << endl;
+    cout << "Canguru '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
 }
 
 Canguru::~Canguru() {

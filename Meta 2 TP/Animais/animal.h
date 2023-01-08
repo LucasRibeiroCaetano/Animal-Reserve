@@ -2,7 +2,6 @@
 #define META_2_TP_ANIMAL_H
 
 #include "../Utils/utils.h"
-#include "../Reserva/reserva.h"
 
 using namespace std;
 

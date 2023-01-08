@@ -1,6 +1,6 @@
 #include "bife.h"
 
-Bife:: Bife(int id, Reserva &reserva, int x, int y): Alimento(id, reserva, x, y){
+Bife:: Bife(int id, int x, int y): Alimento(id, x, y){
 
     tipo = 'b';
     valorNutritivo = 10;
@@ -9,7 +9,7 @@ Bife:: Bife(int id, Reserva &reserva, int x, int y): Alimento(id, reserva, x, y)
     cheiros[0] = "carne";
     cheiros[1] = "ketchup";
 
-    cout << "Bife de id [" << id << "] foi criado. " << " Valor Nutritivo:" << valorNutritivo << ", Toxicidade:" << toxicidade << endl << ", Display:" <<reserva.getSegmentos()[linha][coluna].getDisplay() << endl;
+    cout << "Bife de id [" << id << "] foi criado. " << " Valor Nutritivo:" << valorNutritivo << ", Toxicidade:" << toxicidade << endl << ", Display:" << tipo << endl;
 }
 
 Bife::~Bife() {

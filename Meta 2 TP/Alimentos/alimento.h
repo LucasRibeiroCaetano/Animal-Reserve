@@ -2,7 +2,6 @@
 #define META_2_TP_ALIMENTO_H
 
 #include "../Utils/utils.h"
-#include "../Reserva/reserva.h"
 
 using namespace std;
 
@@ -10,7 +9,6 @@ using namespace std;
 class Alimento {
 
 protected:
-
 
     int id,
         valorNutritivo,
@@ -28,7 +26,7 @@ public:
     Alimento(int id, int x, int y);
     Alimento(int id, int x , int y, int valorNutritivo, int toxicidade);
 
-    virtual ~Alimento() = 0;
+    ~Alimento();
 
     char getChar() const;
     int getX() const;

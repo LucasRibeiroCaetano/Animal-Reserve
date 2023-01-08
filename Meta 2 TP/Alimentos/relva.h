@@ -11,7 +11,7 @@ class Relva : public Alimento {
 
 public:
 
-    Relva(int id, Reserva &reserva, int x, int y);
+    Relva(int id, int x, int y);
     ~Relva();
 
     void novaRelva();

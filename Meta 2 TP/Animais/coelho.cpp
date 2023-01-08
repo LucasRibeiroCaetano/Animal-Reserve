@@ -1,6 +1,6 @@
 #include "coelho.h"
 
-Coelho::Coelho(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
+Coelho::Coelho(int id, string nome, int x, int y): Animal(id, nome, x, y){
 
     especie = "coelho";
     representacao = 'C';
@@ -11,9 +11,7 @@ Coelho::Coelho(int id, Reserva &reserva, string nome, int x, int y): Animal(id, 
     cheiroAgradavel = "verdura";
     percecao = 4;
 
-    reserva.getSegmentos()[linha][coluna].addAnimal(this);
-
-    cout << "Coelho '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" <<reserva.getSegmentos()[linha][coluna].getDisplay() << endl;
+    cout << "Coelho '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
 }
 
 Coelho::~Coelho() {

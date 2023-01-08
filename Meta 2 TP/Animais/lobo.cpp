@@ -1,6 +1,6 @@
 #include "lobo.h"
 
-Lobo:: Lobo(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nome, x, y){
+Lobo:: Lobo(int id, string nome, int x, int y): Animal(id, nome, x, y){
     especie = "lobo";
     representacao = 'L';
     peso = 15;
@@ -10,9 +10,7 @@ Lobo:: Lobo(int id, Reserva &reserva, string nome, int x, int y): Animal(id, nom
     instanteNovoNasc = (rand() % 40) + 5;
     percecao = 5;
 
-    reserva.getSegmentos()[linha][coluna].addAnimal(this);
-
-    cout << "Lobo '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" <<reserva.getSegmentos()[linha][coluna].getDisplay() << endl;
+    cout << "Lobo '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
 }
 
 Lobo::~Lobo() {
