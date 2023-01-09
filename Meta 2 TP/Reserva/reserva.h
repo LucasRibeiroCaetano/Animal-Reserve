@@ -28,9 +28,6 @@ class Reserva {
     vector< Alimento* > alimentos;
     vector< Animal* > animais;
 
-    //Array que guarda os caracteres a serem mostrados
-    char **displayChar;
-
 public:
 
     Reserva(int largura, int altura);

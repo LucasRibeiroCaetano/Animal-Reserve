@@ -10,12 +10,6 @@ Reserva::Reserva(int lar, int alt) : AVlar(lar), AValt(alt), ID(0){
     NC = sizeNC(gen);
     NL = sizeNL(gen);
 
-    //Alocar o tamanho de displayChar
-    displayChar = new char*[NC];
-    for (int i = 0; i < NC; i++) {
-        displayChar[i] = new char[NL];
-    }
-
     uniform_int_distribution<> AVlarDis(0, NC - AVlar);
     uniform_int_distribution<> AValtDis(0, NL - AValt);
 
@@ -33,11 +27,6 @@ Reserva::~Reserva() {
 
     for (Animal *animal: animais)
         delete animal;
-
-    for (int i = 0; i < NC; i++) {
-        delete [] displayChar[i];
-    }
-    delete [] displayChar;
 
 }
 
@@ -106,6 +95,7 @@ void Reserva::mostraReserva() const{
             }
             cout << c << " | ";
         }
+        cout << endl;
     }
 
     for (int i = 0; i < (AVlimX - AVcseX) * 4 + 1; i++) {

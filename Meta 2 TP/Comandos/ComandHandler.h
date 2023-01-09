@@ -26,6 +26,8 @@
 using namespace std;
 
 class ComandHandler {
+private:
+    bool done;
 
 public:
 
