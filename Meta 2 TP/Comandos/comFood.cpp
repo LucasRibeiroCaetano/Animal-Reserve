@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void comFood::execute(const string &comando) {
+void comFood::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int nLinha, nColuna;

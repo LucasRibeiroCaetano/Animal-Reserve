@@ -12,7 +12,7 @@ class animalMisterio : public Animal{
 public:
 
     //Nasce -> Construtor
-    animalMisterio(int id, string nome, int x, int y);
+    animalMisterio(int id, int x, int y, string nome = "Roberto");
 
     //Morre -> Destrutor
     ~animalMisterio();

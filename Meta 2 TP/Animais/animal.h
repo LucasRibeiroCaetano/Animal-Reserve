@@ -30,7 +30,7 @@ protected:
 public:
 
     //Construtor
-    Animal(int id, string nome, int x, int y);
+    Animal(int id, int x, int y, string nome);
 
     //Destrutor
     virtual ~Animal();

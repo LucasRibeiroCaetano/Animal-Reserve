@@ -1,6 +1,6 @@
 #include "comFeedid.h"
 
-void comFeedid::execute(const string &comando) {
+void comFeedid::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int nLinha, nColuna, ptsNutritivos, ptsToxicidade, id;

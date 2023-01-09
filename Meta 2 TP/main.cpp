@@ -2,6 +2,7 @@
 #include "Animais/animal.h"
 #include "Alimentos/alimento.h"
 #include "Utils/utils.h"
+#include "Comandos/ComandHandler.h"
 
 using namespace std;
 
@@ -54,6 +55,7 @@ int main() {
     Reserva reserva(x, y);
 
     cout << "\n";
+    int result = 0;
 
     cout << "Informacao da Reserva: \n\n" << "NC:" << reserva.getNC()  << endl << "NL:" << reserva.getNL()  << endl << "CseX: " << reserva.getCseX() << "\nCseY: " << reserva.getCseY() << "\nLimX: " << reserva.getLimX() << "\nLimY: " << reserva.getLimY() <<  endl;
 

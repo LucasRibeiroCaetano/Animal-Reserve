@@ -10,11 +10,11 @@ Lobo:: Lobo(int id, int x, int y, const string& nome): Animal(id, x, y, nome){
     instanteNovoNasc = (rand() % 40) + 5;
     percecao = 5;
 
-    cout << "Lobo '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
+    cout << "Lobo '" << nome << "' de id[" << id << "] foi criado. " << endl << "Display: " << representacao << endl;
 }
 
 Lobo::~Lobo() {
-    cout << "Lobo '" << nome << "' de id [" << id << "] morreu..." << endl;
+    cout << "Lobo '" << nome << "' de id[" << id << "] morreu..." << endl;
 }
 
 void Lobo::movimento() {

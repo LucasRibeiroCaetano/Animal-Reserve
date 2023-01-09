@@ -5,6 +5,13 @@
 #include "../Alimentos/alimento.h"
 #include "../Animais/animal.h"
 #include "comando.h"
+#include "../Reserva/reserva.h"
+
+#include "../Animais/coelho.h"
+#include "../Animais/ovelha.h"
+#include "../Animais/canguru.h"
+#include "../Animais/lobo.h"
+#include "../Animais/animalMisterio.h"
 
 using namespace std;
 

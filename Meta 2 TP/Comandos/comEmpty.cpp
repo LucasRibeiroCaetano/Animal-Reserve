@@ -1,6 +1,6 @@
 #include "comEmpty.h"
 
-void comEmpty::execute(const string &comando) {
+void comEmpty::execute(const string &comando, Reserva &reserva) {
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 

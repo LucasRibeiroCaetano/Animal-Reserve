@@ -11,12 +11,12 @@ Coelho::Coelho(int id, int x, int y, const string& nome): Animal(id, x, y,nome){
     cheiroAgradavel = "verdura";
     percecao = 4;
 
-    cout << "Coelho '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
+    cout << "Coelho '" << nome << "' de id[" << id << "] foi criado. " << endl << "Display: " << representacao << endl;
 }
 
 Coelho::~Coelho() {
 
-    cout << "Coelho '" << nome << "de id [" << id << "] morreu..." << endl;
+    cout << "Coelho '" << nome << "' de id[" << id << "] morreu..." << endl;
 
 }
 

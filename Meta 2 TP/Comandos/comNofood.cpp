@@ -1,6 +1,6 @@
 #include "comNofood.h"
 
-void comNofood::execute(const string &comando) {
+void comNofood::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int nLinha, nColuna, id;

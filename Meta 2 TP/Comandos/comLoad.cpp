@@ -1,6 +1,6 @@
 #include "comLoad.h"
 
-void comLoad::execute(const string &comando) {
+void comLoad::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
 

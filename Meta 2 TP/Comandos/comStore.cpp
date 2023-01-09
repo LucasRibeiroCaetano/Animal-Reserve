@@ -1,6 +1,6 @@
 #include "comStore.h"
 
-void comStore::execute(const string &comando) {
+void comStore::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
 
@@ -15,3 +15,5 @@ void comStore::execute(const string &comando) {
     }
 
 }
+
+comStore :: comStore()= default;

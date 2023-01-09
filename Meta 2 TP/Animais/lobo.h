@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Lobo : Animal{
+class Lobo :public Animal{
 
     int instanteNovoNasc;
     string cheiroAgradavel;

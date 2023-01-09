@@ -5,7 +5,7 @@ void comAnimal::execute(const string &comando, Reserva &reserva) {
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 
-    string com, especie, linha, coluna;
+    string com, especie;
     stringstream ss(comando);
 
     //4 Parâmetros (Com Localização)

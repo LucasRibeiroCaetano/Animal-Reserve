@@ -1,21 +1,18 @@
 #include "comKill.h"
 
-void comKill::execute(const string &comando) {
+void comKill::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int nLinha, nColuna;
 
-    string com, linha, coluna;
+    string com;
     stringstream ss(comando);
     if(n == 3){
-        ss >> com >> linha >> coluna;
-        if(isNumber(linha)|| isNumber(coluna)) { //Verifica se a linha e a coluna sao inteiros
-            // if(stoi(linha) > NL || stoi(coluna) > NC|| ){ //Verifica se a linha e coluna estao dentro da reserva
+        ss >> com >> nLinha >> nColuna;
+
+        //Verifica se a linha e coluna estao dentro da reserva
+        if (nLinha > reserva.getNC() || nColuna > reserva.getNL()){
             cout << "\nCoordenadas fora da reserva...";
-            return;
-            //}
-        }else{
-            cout << "\nCoordenadas invalidas...";
             return;
         }
     }

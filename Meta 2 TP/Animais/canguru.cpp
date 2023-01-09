@@ -11,7 +11,7 @@ Canguru:: Canguru(int id, int x, int y,const string& nome): Animal(id,x,y,nome){
 
    // reserva.getSegmentos()[linha][coluna].addAnimal(this);
 
-    cout << "Canguru '" << nome << "' de id [" << id << "] foi criado. " << endl << "Display:" << representacao << endl;
+    cout << "Canguru '" << nome << "' de id[" << id << "] foi criado. " << endl << "Display: " << representacao << endl;
 }
 
 Canguru::~Canguru() {

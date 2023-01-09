@@ -17,6 +17,7 @@ using namespace std;
 class comSlide : public Comando{
 
 public:
+    comSlide();
 
     void execute(const string &comando, Reserva &reserva) override;
 

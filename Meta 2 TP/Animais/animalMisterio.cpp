@@ -1,7 +1,7 @@
 #include "animalMisterio.h"
 #include <utility>
 
-animalMisterio::animalMisterio(int id, string nome, int x, int y) : Animal(id, nome, x, y) {
+animalMisterio::animalMisterio(int id, int x, int y, string nome) : Animal(id, x, y, nome) {
 
 }
 

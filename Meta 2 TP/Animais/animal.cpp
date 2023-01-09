@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Animal::Animal(int id, string nome, int x, int y) : id(id), nome(nome), vivo(true){}
+Animal::Animal(int id, int x, int y,string nome) : id(id), vivo(true), x(x), y(y),nome(nome){}
 
 Animal::~Animal() = default;
 

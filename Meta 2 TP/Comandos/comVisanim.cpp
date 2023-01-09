@@ -1,6 +1,6 @@
 #include "comVisanim.h"
 
-void comVisanim::execute(const string &comando) {
+void comVisanim::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     if(n != 1)

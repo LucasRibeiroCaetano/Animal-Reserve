@@ -5,7 +5,7 @@
 #include "../Utils/utils.h"
 #include "../Reserva/reserva.h"
 
-class Canguru : Animal{
+class Canguru : public Animal{
 
     int tempoVida;
 

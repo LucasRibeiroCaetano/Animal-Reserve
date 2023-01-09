@@ -1,6 +1,6 @@
 #include "comN.h"
 
-void comN::execute(const string &comando) {
+void comN::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int instantes, p;

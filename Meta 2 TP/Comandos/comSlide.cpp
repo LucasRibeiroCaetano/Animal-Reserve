@@ -1,6 +1,6 @@
 #include "comSlide.h"
 
-void comSlide::execute(const string &comando) {
+void comSlide::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int num;
@@ -31,3 +31,5 @@ void comSlide::execute(const string &comando) {
         return;
     }
 }
+
+comSlide :: comSlide()= default;

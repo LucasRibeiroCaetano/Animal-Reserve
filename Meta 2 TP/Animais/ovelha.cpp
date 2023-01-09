@@ -11,7 +11,7 @@ Ovelha:: Ovelha(int id, int x, int y, const string& nome): Animal(id, x, y, nome
     cheiroAgradavel = "erva";
     percecao = 3;
 
-    cout << "Ovelha '" << nome << "' de id [" << id << "] foi criada. " << endl << "Display:" << representacao << endl;
+    cout << "Ovelha '" << nome << "' de id[" << id << "] foi criada. " << endl << "Display: " << representacao << endl;
 }
 
 

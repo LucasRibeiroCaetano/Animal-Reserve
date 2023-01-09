@@ -34,8 +34,7 @@ public:
     ComandHandler();
 
     string pedeComando();
-    void procuraComando(const string& comando);
-
+    int procuraComando(const string& comando, Reserva &reserva);
 };
 
 #endif //META_2_TP_COMANDHANDLER_H

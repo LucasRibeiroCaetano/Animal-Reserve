@@ -1,6 +1,6 @@
 #include "comRestore.h"
 
-void comRestore::execute(const string &comando) {
+void comRestore::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
 

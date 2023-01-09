@@ -1,6 +1,6 @@
 #include "comInfo.h"
 
-void comInfo::execute(const string &comando) {
+void comInfo::execute(const string &comando, Reserva &reserva) {
 
     int n = contaPalavras(comando);
     int id;
